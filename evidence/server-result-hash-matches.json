@@ -1,0 +1,2516 @@
+[
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/intrinsic_dims.csv",
+    "sha256": "72a57b4aac9c4bfee5ea98e62a461d6f46446ee9d1bc7775c5b17017a081b135",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/intrinsic_dims.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/times.csv",
+    "sha256": "3f0d8d4888f7b1c700e7e71f32d5f82a7717662d7c79141731970b4eee2279ef",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/times.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/generalisation_results.csv",
+    "sha256": "829f4463c9e3b16d4502316bca73e86b15007a8840c3ee28aa9e5c3202a0dfb6",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/generalisation_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_accuracy_logistic-regression.tex",
+    "sha256": "19408dd27e7d219d57d498a584dfdb777e178957dbf41aa2cbba97ac8a979af4",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_accuracy_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_roc_auc_mlp.tex",
+    "sha256": "54fadedb6862c34b7fed8bd091ab5619d0ce9c85580b4841fb5bfee70ecef0f6",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_roc_auc_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_mlp.tex",
+    "sha256": "d9ff140beaf7fc8aa826252f983ea777a15d04b904d216faf8591b2b36d9f925",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_mlp.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_roc_auc_logistic-regression.tex",
+    "sha256": "d2527f4bb260bb2c7ab116478f1a44ec32f196385952d803d2f65458923c6e87",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_roc_auc_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_mlp.csv",
+    "sha256": "54a64f927101337b5c687937c48985d1130c78bb8b6bd2130549feb0ba0e0b16",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_mlp.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_xgboost.csv",
+    "sha256": "918ab28e6432abd4fc45abe8f2092f7e61cb90be72fac71e0a32f8c4bbb47f74",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_xgboost.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_xgboost.tex",
+    "sha256": "d8faa570d66c1cecd59c7e75da595b4ed1dfed5298fc55ccd44a4c4496a8df25",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_xgboost.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_logistic-regression.csv",
+    "sha256": "e8f127ecd44b31bc6ad2e7a2a3f24df450a95a71525f37e6d03b826dbb640b5c",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_logistic-regression.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/intrinsic_dims_table.csv",
+    "sha256": "76f4e8d69a6c230830ab361f5fae7e507c5adf6d99477ecfc4823b732650b887",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/intrinsic_dims_table.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/dim95_summary_roc_auc_logistic-regression.tex",
+    "sha256": "13dc99e75b65535963e41f0db2465abfefd7f3b04aee97aafd8c506b1a699657",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/dim95_summary_roc_auc_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_accuracy_mlp.csv",
+    "sha256": "97922b8595b908aae95fc5dc283277a5cb5303f9167bc15ca65b285cc2310646",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_accuracy_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_roc_auc_xgboost.csv",
+    "sha256": "86aabb6b99c2e6329ac72362d62b7326ee1bbe182f4283a4ecbc1e71dbd2ecca",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_roc_auc_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_accuracy_logistic-regression.csv",
+    "sha256": "4daad63fbdcc54fff226235db779b767613cfb5e6a9b1b265ccbe2a7c66721f5",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_accuracy_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_accuracy_mlp.tex",
+    "sha256": "43550ac984d3458515e95f74cff286220f286027a3eaedf12276065a90a1976c",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_accuracy_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_xgboost.csv",
+    "sha256": "c435cf895735fd920b39ae78443e7949a080333df82865f05224e0d5f5ce0be3",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_xgboost.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_mlp.tex",
+    "sha256": "f69fca7822ee81b7c7e1d98043588d286d2f2a30b9c42dbb3280281904c8a109",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_mlp.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_roc_auc_mlp.csv",
+    "sha256": "c957727d6a250b553c966990b7b96502d86ce14e7f77468dcc567cf20c504656",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_roc_auc_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_xgboost.tex",
+    "sha256": "3a4d7970936c221910dae3c713b1b0b33494fbb65ec3f4a8c1e16ba201337528",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_xgboost.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_mlp.csv",
+    "sha256": "d910a5255fe6dfdcac531a4a64a9b252c0b7ff665c3f0a6fcfa00eb9df81050d",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_mlp.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_xgboost.csv",
+    "sha256": "5830d8753f87e025332093ffd407d338af93471811d4d8f7d52a732e69650632",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_xgboost.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_logistic-regression.tex",
+    "sha256": "2e28fce8806c840c6349f0ad444df9e27216e6fb2791d282c445101359264263",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_logistic-regression.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_mlp.tex",
+    "sha256": "3107509c4f0243d84af16942ccdc030829eaab1c650d4222c017fd3a62bfb339",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_mlp.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_accuracy_xgboost.csv",
+    "sha256": "f292af9532275dba2bff39a9b9d12d8c0527d5ee69fc8495e27c69608e60d35e",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_accuracy_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_mlp.csv",
+    "sha256": "6c7dc4bb5929522795f633ae3fc02a0c9eac5f6b64e51e6994b0333ae54c9162",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_mlp.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_accuracy_xgboost.csv",
+    "sha256": "f5452e498f9b76450cfcc7cd06a1c61028b21b65dc3bbba6adb4606b40de53d3",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_accuracy_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_mlp.tex",
+    "sha256": "9f06106c6a6e0e031667abffe8a0c5da4f207f0abdfc77da5908b3c1780394e9",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_mlp.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_xgboost.csv",
+    "sha256": "141c6c0fb129f771998994002e524517e6583d45cdbc3e51851c383f0ffc430f",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_xgboost.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/dim99_summary_accuracy_logistic-regression.csv",
+    "sha256": "45d05d95c4e547839a03a6614aeb91cc6779c33c9e247e9e265d64f23c49e101",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/dim99_summary_accuracy_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_logistic-regression.csv",
+    "sha256": "d3fc3cf7f43a0218875719ce0bf9eb3a9f516aa45785edbe4fcc6c1f74f02f20",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_logistic-regression.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_roc_auc_mlp.csv",
+    "sha256": "1cea9182a2cb4a92650b3068ad93c9ebe515a18ba18d0aa26e5f7aae91e799f6",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_roc_auc_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_mlp.csv",
+    "sha256": "700316318153f3f8c933fc874407ce98ca4857c260003148fa5c5c973f6abaf6",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_mlp.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_roc_auc_xgboost.tex",
+    "sha256": "b6f0c13b94371ad50f6f22eb5c20765feea56c8d3ccc94034f3233e6db4a90b6",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_roc_auc_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_logistic-regression.csv",
+    "sha256": "908f0ccde51b8998e8e834ba4e598a46df08921ede86b334ada6abdffeeb85df",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_logistic-regression.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_accuracy_logistic-regression.csv",
+    "sha256": "de56b8aff2fc290504b6fca763f69163aac00213b175ea7cee005687027b7776",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_accuracy_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_roc_auc_xgboost.tex",
+    "sha256": "37d7d87991242dd5b505a332c2de412bb68ad66cfff733ad4d1494fd51155f55",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_roc_auc_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_logistic-regression.csv",
+    "sha256": "41e19994e4948fd6ccf046383ec2416ac48750f38afec2b0621cc0433a28b20c",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_logistic-regression.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_roc_auc_logistic-regression.csv",
+    "sha256": "e40eb917f6f272a2ca6fa946a1799b9d3d5edd346fe86f33ddb402c1d6024943",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_roc_auc_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_xgboost.tex",
+    "sha256": "84973279879827c2c4b685c1b8e6c696f17271f7d70738bb2d244cc4fdb245e7",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_xgboost.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_roc_auc_logistic-regression.tex",
+    "sha256": "2216bfb6db3be9d81465515d86b451c17910effeb1ddacf4c0b76c8deaf54ff5",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_roc_auc_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_logistic-regression.csv",
+    "sha256": "875ef7ab6f0becdcefbcd81cdc8a7b6f1991a3cc9165ffc0a0a10aadd4978bb2",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_logistic-regression.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/dim99_summary_accuracy_logistic-regression.tex",
+    "sha256": "570e674e5182bbb1f2012b4b0b14e04de0ad864f4acb410971a029c6d3357dcb",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/dim99_summary_accuracy_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/intrinsic_dims_table.tex",
+    "sha256": "9dd79b4bde048308858ce5ad977b45e414a8487d0af44fe87a18ac3fb8a8e782",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/intrinsic_dims_table.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_accuracy_logistic-regression.tex",
+    "sha256": "0402d6ea218cdbfd752e4a787c0691623db3eb18bc703716a210035fc800e45a",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_accuracy_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_xgboost.csv",
+    "sha256": "0e60c1079daa9f33e193950f6ac41e51c6646fa74ac7586a55b5c99eaf7db0f8",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_xgboost.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_mlp.csv",
+    "sha256": "5f37f110e237803885165dea5f3d73ac801971ea586615baf57e980b210094e8",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_mlp.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_xgboost.tex",
+    "sha256": "6f651969dbe5bfd325d04349ca9d5a8f09cdb6e3fcd16a3e834e1c104753fbcb",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_xgboost.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_logistic-regression.tex",
+    "sha256": "bb19b1b39190d4a8406f6e1b34c70d8aec660ea4a7ba580565486087a25d8ce2",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_logistic-regression.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/all_tables.tex",
+    "sha256": "8526699e6d0811951e432a5940d612cf64de1eef1652374bd54434b0ce0541e1",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/all_tables.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_mlp.csv",
+    "sha256": "89c57c11b18e9b3602d754af46c93584dcb03074860b14be0e6a858476cc30c4",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_mlp.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_logistic-regression.tex",
+    "sha256": "843b4423af1b592bca6144db3aa9468416410b4709c2a9d0e145f235ae4a8035",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_logistic-regression.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_roc_auc_logistic-regression.csv",
+    "sha256": "183fd845be9304e3ab46f92886f724c5259989625ea499fccf6666ff64430679",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_roc_auc_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_roc_auc_xgboost.csv",
+    "sha256": "23a45af946b1545d3fa84bcd2bf2279decfd1aeea93e70929eabe455d8179019",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_roc_auc_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/dim95_summary_roc_auc_logistic-regression.csv",
+    "sha256": "4689a4d40e544464a5f19a25b2b2d760ef467f7de4154127005e342fe7e33a1d",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/dim95_summary_roc_auc_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_logistic-regression.csv",
+    "sha256": "d6a1e73358612bd889d9492764cedf7c184ddb67da3a05776749fec5e1efcbb9",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_logistic-regression.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_logistic-regression.tex",
+    "sha256": "e6a7fa1c6c8acdefaa91c1c7ed7383fc8ea17ff74f70927f8cbee5f9c56d998e",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_logistic-regression.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_accuracy_xgboost.tex",
+    "sha256": "02f1605492f1a8392f8c4220ea6996a7960e0b178ee429da7315786affa9efd5",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_accuracy_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_logistic-regression.tex",
+    "sha256": "3c61afd317ca8bda65923088650a708150680e92823ebe7e81c6af12273579f6",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_logistic-regression.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_mlp.tex",
+    "sha256": "a2f94e0b0bc64b630355227d04c2727e5fcbbbba2799b25d0c724bc307346397",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_mlp.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_xgboost.tex",
+    "sha256": "2a8b8d845c47f7d9765bccaac059e97782f05a3bd9b834cbb7e61a1b72847e81",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_xgboost.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_logistic-regression.tex",
+    "sha256": "d1fffdfda27908b469b3b3a2f93514c279c0e6bf95e33d729b44404383fd3928",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_logistic-regression.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_roc_auc_mlp.tex",
+    "sha256": "e89c65919480593adfef6cd4a5b1c8517cf23e0af1bf428442bac1f4062d2ee5",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_roc_auc_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_mlp.tex",
+    "sha256": "76479192a784754cc416bb691549aaebf5744fca06932ad6398fe433bfe53b73",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_mlp.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_accuracy_mlp.csv",
+    "sha256": "021e169d3547299802754028a7d972e3a9e71261acb7c159df4a05eca460ee5e",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-colorectal_accuracy_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_xgboost.csv",
+    "sha256": "b195d4115761bc2cb2c2b776a729b867eb9e04a0bd8478c6ad206c0bda407f48",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_xgboost.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_accuracy_mlp.tex",
+    "sha256": "10113b6096e3f2408bfd1ed970bac58755484ef9e8ed113efac858a86f5cd900",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_accuracy_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_xgboost.tex",
+    "sha256": "2344bc877d87920922cf43c1c2663253d6e6199425691140efc3edcf8eae2e8d",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_xgboost.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_accuracy_xgboost.tex",
+    "sha256": "6641a9e8ca3e759a4e887b5c5414f7b3bd5f95eb8ecbebfc49ceb3a2b6ee0e9f",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_kather100k_accuracy_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/plots/logistic-regression_roc_auc.pdf",
+    "sha256": "edfa50bbbc0baf3027f083f2aa3004a112554e4dd900ca32dd46f76ddeac23bd",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/plots/logistic-regression_roc_auc.pdf"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/plots/logistic-regression_trustworthiness.pdf",
+    "sha256": "e01f268018ed1688642472f4283a20ace3b7e0ebfd588a0fc37f75bebfaa99d9",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/plots/logistic-regression_trustworthiness.pdf"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/plots/logistic-regression_mean-knn-score.pdf",
+    "sha256": "aa0d4e8546bdb0a267c0953d49c60ea85d67164b4abe5055fe545f82325da8bc",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/plots/logistic-regression_mean-knn-score.pdf"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/plots/logistic-regression_accuracy.pdf",
+    "sha256": "a519ab9e26a04f24fec6b9297acd8e5233e63df9b647b71d43d57ea91c520f15",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/plots/logistic-regression_accuracy.pdf"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/report/plots/logistic-regression_silhouette-score.pdf",
+    "sha256": "67cbc5c9be429c2c085f56c1ddf8ffcdfa1c28555fc8f4fa744e41a04dd9b9d0",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/plots/logistic-regression_silhouette-score.pdf"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/thresholds_results.csv",
+    "sha256": "bd34b2baec8a9b703cc9dcf9cf0b5f507c0726c98e082e21ebcc40432d9ebd4a",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/thresholds_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/pca_logistic-regression/unprojected_scores.csv",
+    "sha256": "a6a5935b7a29c53d244846ee3e5f43b6a75c7e36e5d8dbec3b28afb0967fce7b",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/pca_logistic-regression/unprojected_scores.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/pca_logistic-regression/dataset_summary_results.csv",
+    "sha256": "8d23dc6df79670709cb284c0494836179f2473b7f538aed11db75cb549debfc0",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/pca_logistic-regression/dataset_summary_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/pca_logistic-regression/seed_summary_results.csv",
+    "sha256": "6a96854c8a2f3ff8181928639edac0a496cf7683bd7a7cb244fa8e1ac2491711",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/pca_logistic-regression/seed_summary_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/pca_logistic-regression/results.csv",
+    "sha256": "79790bee94834c75a979c5b8f64c22ac615c80568533a5a67a2bbb5d2aac69e8",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/pca_logistic-regression/results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/pca_logistic-regression/thresholds_results.csv",
+    "sha256": "44a98ec094be0958ed30d3bf7c56781deb39ddb6313255d82f466a9d667921de",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/pca_logistic-regression/thresholds_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/summaries/logistic-regression_dataset_summary.csv",
+    "sha256": "767affea2147a1a82f7055ec4454e82bea33ba6fafce4741d9135e179d761922",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/summaries/logistic-regression_dataset_summary.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/summaries/logistic-regression_seed_summary.csv",
+    "sha256": "6034a71ee65b3d5ccf5a91d10e585a91abe8341a2f31fe6ca820cf8ef2b7c548",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/summaries/logistic-regression_seed_summary.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/grp_logistic-regression/unprojected_scores.csv",
+    "sha256": "b14be473d0a3dc1de2d1291656e62d6555395093ccdba7960a50cf39768ca1bd",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/grp_logistic-regression/unprojected_scores.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/grp_logistic-regression/dataset_summary_results.csv",
+    "sha256": "2e95695f76c665884d051dd746ecb8b43f1749e006e921720a2eea573402b39e",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/grp_logistic-regression/dataset_summary_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/grp_logistic-regression/seed_summary_results.csv",
+    "sha256": "9ffab4f85ce5e577afa4fe9ed182eb1b04963a1cb2b8635f449f6ff35add8753",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/grp_logistic-regression/seed_summary_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/grp_logistic-regression/results.csv",
+    "sha256": "2b8507fd5c8392c9132cec819521ba553578c4c9f15c9b69a5519c17f629dd9f",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/grp_logistic-regression/results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/grp_logistic-regression/thresholds_results.csv",
+    "sha256": "52ae12eb0667460b6b07858bed3cce08365a0895e127eb8e7fea64a0419f6ff7",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/grp_logistic-regression/thresholds_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/umap_logistic-regression/unprojected_scores.csv",
+    "sha256": "4a5991944e6ea7e31b481a96318cc39998bd54c09494f1e2517f4bba8962221f",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/umap_logistic-regression/unprojected_scores.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/umap_logistic-regression/dataset_summary_results.csv",
+    "sha256": "2e2295acc57f0c8f2f9828a7646b1e256e3e09d4723b427263bce22ef502f11d",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/umap_logistic-regression/dataset_summary_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/umap_logistic-regression/seed_summary_results.csv",
+    "sha256": "31e095223348761c546d374eb2d7395e2752db0b958d1d4598bb5c52502ecb96",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/umap_logistic-regression/seed_summary_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/umap_logistic-regression/results.csv",
+    "sha256": "8df37c67b0785bd103694f45e2ecdbaaea5956b8880e1c2b3e81376d79a9ad0c",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/umap_logistic-regression/results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/umap_logistic-regression/thresholds_results.csv",
+    "sha256": "0e8dcd8ee3f1e7a32e04efa888cf95513f25991165c526eabc9a269161dfd0a5",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/umap_logistic-regression/thresholds_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/plots/logistic-regression_roc_auc.pdf",
+    "sha256": "f557648cd6bdda275d1ae5a7f6cc20bf226aa3b70b958ed2873426bd2a26238a",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/plots/logistic-regression_roc_auc.pdf"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/curve/plots/logistic-regression_accuracy.pdf",
+    "sha256": "ddc67e191b0105ce27fe26bfa15ea4cad071686f715277dda84389fb526f6ee6",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/curve/plots/logistic-regression_accuracy.pdf"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/calibration/projectors/umap/best_params.json",
+    "sha256": "0787c6ff9ed31dd43e9a8c0d9918cfa18a0916470a6d30cf4031fe606a2775ba",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/calibration/projectors/umap/best_params.json",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/projectors/umap/best_params.json"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/calibration/projectors/umap/scores.csv",
+    "sha256": "3f64fc5e19c5afa787a92b204a03ca0c071718db87e3606bdfea71e1e8beef38",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/calibration/projectors/umap/scores.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/projectors/umap/scores.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/calibration/projectors/umap/seed_scores.csv",
+    "sha256": "c2af320dcd1f8698dcb018bd04e092027bd74edff36cb5a904bafa3ca9db76e1",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/calibration/projectors/umap/seed_scores.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/projectors/umap/seed_scores.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/calibration/classifier/logistic-regression/best_params.json",
+    "sha256": "914e7478f79bd7b5b7b4774f62bff41f9519868bb0ef27ce45633ba1065da69b",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/calibration/classifier/logistic-regression/best_params.json",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/classifier/logistic-regression/best_params.json"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/calibration/classifier/logistic-regression/scores.csv",
+    "sha256": "fb0d374c1fb3e5d859474d66f5f746dbf140949476a4d45f8ac9a34537aceb43",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/calibration/classifier/logistic-regression/scores.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/classifier/logistic-regression/scores.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203/calibration/classifier/logistic-regression/seed_scores.csv",
+    "sha256": "b813c16ebbf26285cb628a339faf0d7b0a8617444b698b4996c3bd56150756d8",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/calibration/classifier/logistic-regression/seed_scores.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/classifier/logistic-regression/seed_scores.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/intrinsic_dims.csv",
+    "sha256": "465760f6e755c7efdcb273f40355bb78909521d6dcd3f7dd6776a31859b50167",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/intrinsic_dims.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/config.yml",
+    "sha256": "ce43740db576b56ab4678f7f87692aba06e799849707f992c1f6920013125b30",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/config.yml"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_roc_auc_logistic-regression.csv",
+    "sha256": "18cff934e7394744a51f34c2dc67cc9f833678882c6272a00efd968053adc978",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_roc_auc_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_accuracy_logistic-regression.tex",
+    "sha256": "ae18bc02f4a0d21bf154b9a7607f252471c943e4c3f2cf1c649f907f1fa07e47",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_accuracy_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_roc_auc_mlp.tex",
+    "sha256": "d8de2a23cd6f6517b8729f9fd8494106a1dce462e954c3d9ea2512820a6ee850",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_roc_auc_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_mlp.tex",
+    "sha256": "d9ff140beaf7fc8aa826252f983ea777a15d04b904d216faf8591b2b36d9f925",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_mlp.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_roc_auc_logistic-regression.tex",
+    "sha256": "caa086661ae3036cec87d9c4b592258da9b930d01bfe06f1e31ccc60481bd510",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_roc_auc_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_mlp.csv",
+    "sha256": "54a64f927101337b5c687937c48985d1130c78bb8b6bd2130549feb0ba0e0b16",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_mlp.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_xgboost.csv",
+    "sha256": "918ab28e6432abd4fc45abe8f2092f7e61cb90be72fac71e0a32f8c4bbb47f74",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_xgboost.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_xgboost.tex",
+    "sha256": "d8faa570d66c1cecd59c7e75da595b4ed1dfed5298fc55ccd44a4c4496a8df25",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_xgboost.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_roc_auc_xgboost.tex",
+    "sha256": "a433b5de3692871ce218b454342ef6a554ff33069228946c8a7c6fc87935b6cb",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_roc_auc_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_logistic-regression.csv",
+    "sha256": "e8f127ecd44b31bc6ad2e7a2a3f24df450a95a71525f37e6d03b826dbb640b5c",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_logistic-regression.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/intrinsic_dims_table.csv",
+    "sha256": "66b0ff555e9f2e086dcc87520b5e1c07be5c273fe052060606f81f182aa5fdce",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/intrinsic_dims_table.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/dim95_summary_roc_auc_logistic-regression.tex",
+    "sha256": "d41eccbbd8f6d531517caaf1fbef8c8a9075ce3a5c7d73d6bba2130205f0099f",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/dim95_summary_roc_auc_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_accuracy_mlp.csv",
+    "sha256": "2c9fd5e2ea4d108afde7453a82b6688d9a7bea5b50f3692ee47709250ca2a326",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_accuracy_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_roc_auc_xgboost.csv",
+    "sha256": "fb0a2cc51842de1728fc74a4a4fce6fc92c7b821bf97f00cc223d5df19cbb1cb",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_roc_auc_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_accuracy_mlp.tex",
+    "sha256": "a845b7d88017d0cce7dfed2d1e47cab82532fce1949a2bdfd12896d0142b7f1f",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_accuracy_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_accuracy_logistic-regression.csv",
+    "sha256": "00a152658911835ba695068246fc8ef8a546b66e98e68b820daeb44d6d7119e2",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_accuracy_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_accuracy_mlp.csv",
+    "sha256": "7a5001a737ccdd9368730e9368e9a603e1368d794175faf364a12ca5412e0937",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_accuracy_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_accuracy_mlp.tex",
+    "sha256": "19a71ea31cdb14339017d959b3711b760da2cff534a42f6c61153fb4e05f17ee",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_accuracy_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_xgboost.csv",
+    "sha256": "c435cf895735fd920b39ae78443e7949a080333df82865f05224e0d5f5ce0be3",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_xgboost.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_accuracy_logistic-regression.csv",
+    "sha256": "5e62581415408662b084c8754b77a848bf1baee42a57ea2d863082e43fc78be8",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_accuracy_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_mlp.tex",
+    "sha256": "f69fca7822ee81b7c7e1d98043588d286d2f2a30b9c42dbb3280281904c8a109",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_mlp.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_roc_auc_mlp.csv",
+    "sha256": "74a2d555eb166ea25423a505d89367d635aefc18796ec0731784f79ee58b7f7b",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_roc_auc_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_xgboost.tex",
+    "sha256": "3a4d7970936c221910dae3c713b1b0b33494fbb65ec3f4a8c1e16ba201337528",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_xgboost.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_mlp.csv",
+    "sha256": "d910a5255fe6dfdcac531a4a64a9b252c0b7ff665c3f0a6fcfa00eb9df81050d",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_mlp.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_roc_auc_logistic-regression.tex",
+    "sha256": "db03b0c2c4ea29691f2555ede29663f1434bebc1fff25b31df07dc5ab6c00190",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_roc_auc_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_xgboost.csv",
+    "sha256": "5830d8753f87e025332093ffd407d338af93471811d4d8f7d52a732e69650632",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_xgboost.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_logistic-regression.tex",
+    "sha256": "2e28fce8806c840c6349f0ad444df9e27216e6fb2791d282c445101359264263",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_logistic-regression.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_mlp.tex",
+    "sha256": "3107509c4f0243d84af16942ccdc030829eaab1c650d4222c017fd3a62bfb339",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_mlp.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_accuracy_xgboost.csv",
+    "sha256": "bab204d1e811c64362305716fc0ddf47ef51e9992a7858469b5745e1b449004a",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_accuracy_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_mlp.csv",
+    "sha256": "6c7dc4bb5929522795f633ae3fc02a0c9eac5f6b64e51e6994b0333ae54c9162",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_mlp.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_accuracy_xgboost.csv",
+    "sha256": "8ca7610340c47627f8bf40ccee5004dfc9aa31a423fde8b60b8ec853b6b7ab15",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_accuracy_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_mlp.tex",
+    "sha256": "9f06106c6a6e0e031667abffe8a0c5da4f207f0abdfc77da5908b3c1780394e9",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_mlp.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_xgboost.csv",
+    "sha256": "141c6c0fb129f771998994002e524517e6583d45cdbc3e51851c383f0ffc430f",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_xgboost.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/dim99_summary_accuracy_logistic-regression.csv",
+    "sha256": "1da64b12c17a32acbc4939d02af665837522d8dc19e98524f54cd726dc02861b",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/dim99_summary_accuracy_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_logistic-regression.csv",
+    "sha256": "d3fc3cf7f43a0218875719ce0bf9eb3a9f516aa45785edbe4fcc6c1f74f02f20",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_logistic-regression.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_roc_auc_mlp.csv",
+    "sha256": "704edc8a56cdc5d57272deb0461a47653fa2f652c950af153e5000fb1d6e553d",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_roc_auc_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_mlp.csv",
+    "sha256": "700316318153f3f8c933fc874407ce98ca4857c260003148fa5c5c973f6abaf6",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_mlp.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_roc_auc_xgboost.tex",
+    "sha256": "7cd52012bc73a240d0964af0b56d1799b6bec6fe063bbafa57ff1de3ac40d5ac",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_roc_auc_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_roc_auc_mlp.csv",
+    "sha256": "1b557f7a61a18dcbec6ed0e985083fba63c575a41bcda28d61b267249ebf115e",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_roc_auc_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_logistic-regression.csv",
+    "sha256": "908f0ccde51b8998e8e834ba4e598a46df08921ede86b334ada6abdffeeb85df",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_logistic-regression.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_accuracy_logistic-regression.csv",
+    "sha256": "757886c207b036ccf3389cda0e8f679903e6070e19d99aab56c39f1a33157212",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_accuracy_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_roc_auc_xgboost.tex",
+    "sha256": "46922d9ad8bd38df920456ee5152e20f6f96d0d765463e87b5da8620775dbdb2",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_roc_auc_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_logistic-regression.csv",
+    "sha256": "41e19994e4948fd6ccf046383ec2416ac48750f38afec2b0621cc0433a28b20c",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_logistic-regression.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_roc_auc_logistic-regression.csv",
+    "sha256": "0ada9671f0abdac651cfd7e730a2758bdc08ee59ccdfcfc8fd1dda4ead571d39",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_roc_auc_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_xgboost.tex",
+    "sha256": "84973279879827c2c4b685c1b8e6c696f17271f7d70738bb2d244cc4fdb245e7",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_xgboost.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_roc_auc_logistic-regression.tex",
+    "sha256": "41a90c3f20db2b2f2e8cb1c7e4baa6301c19d29555199863f598151bcde53a93",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_roc_auc_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_logistic-regression.csv",
+    "sha256": "875ef7ab6f0becdcefbcd81cdc8a7b6f1991a3cc9165ffc0a0a10aadd4978bb2",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_logistic-regression.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/dim99_summary_accuracy_logistic-regression.tex",
+    "sha256": "c7c17becae9b9b621b7a9599df968dc2fc70bfe58b5a659c3401111d8c3e9342",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/dim99_summary_accuracy_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/intrinsic_dims_table.tex",
+    "sha256": "c475728178a6994ef6903d5157b0f045e8a680bf5b906f75dbac88f43b679b30",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/intrinsic_dims_table.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_accuracy_logistic-regression.tex",
+    "sha256": "7cc51fe78223ed6a00bf85cf74169e951b7a6c5a6607144dcf822aa86245d748",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_accuracy_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_xgboost.csv",
+    "sha256": "0e60c1079daa9f33e193950f6ac41e51c6646fa74ac7586a55b5c99eaf7db0f8",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_xgboost.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_mlp.csv",
+    "sha256": "5f37f110e237803885165dea5f3d73ac801971ea586615baf57e980b210094e8",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_mlp.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_xgboost.tex",
+    "sha256": "6f651969dbe5bfd325d04349ca9d5a8f09cdb6e3fcd16a3e834e1c104753fbcb",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_accuracy_xgboost.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_accuracy_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_logistic-regression.tex",
+    "sha256": "bb19b1b39190d4a8406f6e1b34c70d8aec660ea4a7ba580565486087a25d8ce2",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_logistic-regression.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_roc_auc_xgboost.csv",
+    "sha256": "84c7e01bcd97971d74ea19d98d88be40b853cdbfcb215b16e17bea6348e9fefa",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_roc_auc_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/all_tables.tex",
+    "sha256": "5ad8a37a1813df0c2aa40559230be310ef9578b4ff5200e80d314bfb679d0fc4",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/all_tables.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_mlp.csv",
+    "sha256": "89c57c11b18e9b3602d754af46c93584dcb03074860b14be0e6a858476cc30c4",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_mlp.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_logistic-regression.tex",
+    "sha256": "843b4423af1b592bca6144db3aa9468416410b4709c2a9d0e145f235ae4a8035",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_logistic-regression.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_roc_auc_logistic-regression.csv",
+    "sha256": "04c6c0df9462a75c1a71f7479d9620a54420261f70f18f5d12f453338acccaf8",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_roc_auc_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_roc_auc_xgboost.csv",
+    "sha256": "4d74fd820c2e384e4ef7a1fcbd0de68e81cfffce2c99030a61e39658576ed818",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_roc_auc_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/dim95_summary_roc_auc_logistic-regression.csv",
+    "sha256": "dfd81b29e8b1728124bf49fa6bfdcb2944d6e31a8f27f49339408cea7409178d",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/dim95_summary_roc_auc_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_logistic-regression.csv",
+    "sha256": "d6a1e73358612bd889d9492764cedf7c184ddb67da3a05776749fec5e1efcbb9",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-skin_roc_auc_logistic-regression.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-skin_roc_auc_logistic-regression.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_accuracy_logistic-regression.tex",
+    "sha256": "90abe78053d230dbe289f62ab4d00db1cb55df4eab1e7ff6e5cf23a8c4b4f59a",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_accuracy_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_roc_auc_mlp.tex",
+    "sha256": "1d46b5b1424415d2ecfcef24941c3b482aeeef83f2c0e17ddaba1a1192348de5",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_roc_auc_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_logistic-regression.tex",
+    "sha256": "e6a7fa1c6c8acdefaa91c1c7ed7383fc8ea17ff74f70927f8cbee5f9c56d998e",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_logistic-regression.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_accuracy_xgboost.csv",
+    "sha256": "2650f844ce354884811672c1d0554cb095f6dbc909f4797df126b7825bf1530c",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_accuracy_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_accuracy_xgboost.tex",
+    "sha256": "7231bc3e829ddc309a29009d9ac8c9c1e0e4d0b436fef88ed45f9ebc70b19c30",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_accuracy_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_logistic-regression.tex",
+    "sha256": "3c61afd317ca8bda65923088650a708150680e92823ebe7e81c6af12273579f6",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_logistic-regression.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_mlp.tex",
+    "sha256": "a2f94e0b0bc64b630355227d04c2727e5fcbbbba2799b25d0c724bc307346397",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_mlp.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_accuracy_xgboost.tex",
+    "sha256": "f2ddd8e207d4678ed79b8b34a3abf13e813d4ddac4e4d99dc283b96d21da21e1",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_icaird100k_accuracy_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_xgboost.tex",
+    "sha256": "2a8b8d845c47f7d9765bccaac059e97782f05a3bd9b834cbb7e61a1b72847e81",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_accuracy_xgboost.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_accuracy_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_logistic-regression.tex",
+    "sha256": "d1fffdfda27908b469b3b3a2f93514c279c0e6bf95e33d729b44404383fd3928",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_accuracy_logistic-regression.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_accuracy_logistic-regression.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_roc_auc_mlp.tex",
+    "sha256": "a9b39ffa55589fa9e0a52896bcf42a67cea2cb7126d79450dace2d0778b7527f",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_roc_auc_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_mlp.tex",
+    "sha256": "76479192a784754cc416bb691549aaebf5744fca06932ad6398fe433bfe53b73",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-thorax_roc_auc_mlp.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-thorax_roc_auc_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_accuracy_mlp.csv",
+    "sha256": "e8648d4073e4e86042d9e246b6efd6be6dadb6d3f9d33a5734adb45f8261c264",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-colorectal_accuracy_mlp.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_xgboost.csv",
+    "sha256": "b195d4115761bc2cb2c2b776a729b867eb9e04a0bd8478c6ad206c0bda407f48",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_xgboost.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_xgboost.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_accuracy_mlp.tex",
+    "sha256": "d7e625c59e365ada02d79c067e09cdecf61597c996d2204ff1f357091debdf86",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_accuracy_mlp.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_xgboost.tex",
+    "sha256": "2344bc877d87920922cf43c1c2663253d6e6199425691140efc3edcf8eae2e8d",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/report/generalisation_spider-breast_roc_auc_xgboost.tex",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_spider-breast_roc_auc_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_accuracy_xgboost.tex",
+    "sha256": "926e503f5b2bbc0d0b707a29028dcfad19fa9d6a99940b5ee775bd85017573af",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/generalisation_kather100k_accuracy_xgboost.tex"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/plots/logistic-regression_roc_auc.pdf",
+    "sha256": "0c4036006ec1afdc7610d56fe028b1d733df8fca7837f0032c3fb3c7fdfc6380",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/plots/logistic-regression_roc_auc.pdf"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/plots/logistic-regression_trustworthiness.pdf",
+    "sha256": "63b3f7572ce5bbfa8317d192c4be63f602a8498dea80d9c129184dd85a6200e2",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/plots/logistic-regression_trustworthiness.pdf"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/plots/logistic-regression_mean-knn-score.pdf",
+    "sha256": "fdff878d43e9057524dd6089d998ac38a011b2dbba319dbfaa7984f555a086db",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/plots/logistic-regression_mean-knn-score.pdf"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/plots/logistic-regression_accuracy.pdf",
+    "sha256": "80b059eefa102b5fe61a300b4b8fa42c627713d690470bce9b96736909f291f3",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/plots/logistic-regression_accuracy.pdf"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/plots/logistic-regression_silhouette-score.pdf",
+    "sha256": "e2b64cbe4a849df417da86a0b7bc1c21f4992e862f22f6f871ec87cf01318a67",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/report/plots/logistic-regression_silhouette-score.pdf"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/thresholds_results.csv",
+    "sha256": "b0b14ba7a7530705806bbd508741bbba9eefaba327ce9fae77f5fc31fd9248d0",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/thresholds_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/pca_logistic-regression/unprojected_scores.csv",
+    "sha256": "1c05a9393d329b5e65402e2578223495cea50da3d9fa79b93682f5a297f1fc89",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/pca_logistic-regression/unprojected_scores.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/pca_logistic-regression/dataset_summary_results.csv",
+    "sha256": "7f7e82e7398bcf353d13d0a3e5f55f63c33a878bd3238f7383f54a6475d5f3dc",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/pca_logistic-regression/dataset_summary_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/pca_logistic-regression/seed_summary_results.csv",
+    "sha256": "543645982e9ec55c59d0b7314d26f2565f1f646a760a603b5dfc7d94277b2175",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/pca_logistic-regression/seed_summary_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/pca_logistic-regression/results.csv",
+    "sha256": "5b724b40350f9644b519341a968a0683bf3a4b59de921a5744cb14a0db3dc83c",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/pca_logistic-regression/results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/pca_logistic-regression/thresholds_results.csv",
+    "sha256": "84d505c41f7bb5d4d6e9acec2c7e72a3716dfda17e05fd802f5a77da96e12e30",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/pca_logistic-regression/thresholds_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/summaries/logistic-regression_dataset_summary.csv",
+    "sha256": "bd79cbd3b85482ab54d4e48a8b6354f081174936aca01730f7d03774910ccc89",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/summaries/logistic-regression_dataset_summary.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/summaries/logistic-regression_seed_summary.csv",
+    "sha256": "6ce0e56590a80e9b129759ced045bca3bce6969ccdfc8b24ad33ef55b0c38f91",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/summaries/logistic-regression_seed_summary.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/grp_logistic-regression/unprojected_scores.csv",
+    "sha256": "827e345fa098871815dbb3ea91ce00a81967daa9b868080ff7dd7f3e17058f03",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/grp_logistic-regression/unprojected_scores.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/grp_logistic-regression/dataset_summary_results.csv",
+    "sha256": "310f65a400596b46d25388d4a21016958623de117a5077640b54c012dba595df",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/grp_logistic-regression/dataset_summary_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/grp_logistic-regression/seed_summary_results.csv",
+    "sha256": "c678d875674bd6957fe742d0c24694480df7bb4a3262f9d98ae585d9a8bdf5c1",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/grp_logistic-regression/seed_summary_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/grp_logistic-regression/results.csv",
+    "sha256": "5fb14ea5b4ed7db140c86729d7617868e7e15c5bc2e82a7d40bdda7299dc84c2",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/grp_logistic-regression/results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/grp_logistic-regression/thresholds_results.csv",
+    "sha256": "3fcca250a429386dbcef02d05cb5286b6d942b518cee9ede71946474c7402d21",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/grp_logistic-regression/thresholds_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/umap_logistic-regression/unprojected_scores.csv",
+    "sha256": "22f0921b5e1d120940a520547a56652c1433cf008b0023d44e5c390c6f9742d5",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/umap_logistic-regression/unprojected_scores.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/umap_logistic-regression/dataset_summary_results.csv",
+    "sha256": "8a097a01c3ba6d1137acdd80ba27c694040fd4aefe433a51303bf82626b6aded",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/umap_logistic-regression/dataset_summary_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/umap_logistic-regression/seed_summary_results.csv",
+    "sha256": "457114402670189285ad49f3f379e5734f863b98455394b558d92dbd27feb7c7",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/umap_logistic-regression/seed_summary_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/umap_logistic-regression/results.csv",
+    "sha256": "e763d3de94ab3d9261e36788b2eca30aaf07f871a02c2d5851b8227c5fc7f92d",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/umap_logistic-regression/results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/umap_logistic-regression/thresholds_results.csv",
+    "sha256": "51794fe04f384daa54f749799c7b255f1d7029daf82edf5c364c9be7afe43261",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/umap_logistic-regression/thresholds_results.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/plots/logistic-regression_roc_auc.pdf",
+    "sha256": "3ee2a4ee28f2d8643362c1a356fe8a778a7c05ca0b8c22c7880ce2c80bbd5608",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/plots/logistic-regression_roc_auc.pdf"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/plots/logistic-regression_accuracy.pdf",
+    "sha256": "7ba3e828402107bbf60e74335b50969b4716185257910c5e2114a352f4263fcc",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/plots/logistic-regression_accuracy.pdf"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/projectors/umap/best_params.json",
+    "sha256": "0787c6ff9ed31dd43e9a8c0d9918cfa18a0916470a6d30cf4031fe606a2775ba",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/calibration/projectors/umap/best_params.json",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/projectors/umap/best_params.json"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/projectors/umap/scores.csv",
+    "sha256": "3f64fc5e19c5afa787a92b204a03ca0c071718db87e3606bdfea71e1e8beef38",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/calibration/projectors/umap/scores.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/projectors/umap/scores.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/projectors/umap/seed_scores.csv",
+    "sha256": "c2af320dcd1f8698dcb018bd04e092027bd74edff36cb5a904bafa3ca9db76e1",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/calibration/projectors/umap/seed_scores.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/projectors/umap/seed_scores.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/classifier/logistic-regression/best_params.json",
+    "sha256": "914e7478f79bd7b5b7b4774f62bff41f9519868bb0ef27ce45633ba1065da69b",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/calibration/classifier/logistic-regression/best_params.json",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/classifier/logistic-regression/best_params.json"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/classifier/logistic-regression/scores.csv",
+    "sha256": "fb0d374c1fb3e5d859474d66f5f746dbf140949476a4d45f8ac9a34537aceb43",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/calibration/classifier/logistic-regression/scores.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/classifier/logistic-regression/scores.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/hproj/output/runs/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/classifier/logistic-regression/seed_scores.csv",
+    "sha256": "b813c16ebbf26285cb628a339faf0d7b0a8617444b698b4996c3bd56150756d8",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_without_icaird/hproj-2026-05-25_16-41-27-bb2a5203/calibration/classifier/logistic-regression/seed_scores.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/calibration/classifier/logistic-regression/seed_scores.csv"
+    ]
+  },
+  {
+    "host": "hypatia",
+    "remote": "/sharedscratch/dm236/histology_clustering/output/clustering-curve-targets/clustering_results_icaird100k_uni2_pca13_kmeans_k16_cluster_samples.png",
+    "sha256": "b4a35844d2e2d68f1a123adc4f66de8668ed55820729a98fda2fc12cd5e2c97d",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_icaird100k_uni2_pca13_kmeans_k16_cluster_samples.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_kmeans_dimension_metric_trends.csv",
+    "sha256": "7d8602a1b9310e6e81434b0fe9375b668d06565f4d090b2f431d6bc606939f0d",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_kmeans_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_hdbscan_dimension_metric_trends.csv",
+    "sha256": "96db5b9f4fa47e7cdbf19177efc82c5add52a69ef3e0aada83b06152e5de8aab",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_hdbscan_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_icaird100k_uni2_leiden_dimension_metric_trends.csv",
+    "sha256": "37c027087762eb295b50aa65cca2851a6cc5e195eafbf8eee7e699caa94e079f",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_icaird100k_uni2_leiden_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_icaird100k_uni2_kmeans_dimension_metric_trends.png",
+    "sha256": "6f6aa43fa490b1eaa0d933bee38fcd3b41a1a353b6945ad5763ba455affe7ed4",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_icaird100k_uni2_kmeans_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_icaird100k_uni2_leiden_dimension_metric_trends.png",
+    "sha256": "4c2873e76a8c341c091fcb579494a6b928823ff29b872c04b52f9df1b9babfcd",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_icaird100k_uni2_leiden_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_spherical_kmeans_dimension_metric_trends.png",
+    "sha256": "a9e72561213d9cfc30437cfb05e2759fc6595b8e5a822a6cae71aba65511f85c",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_spherical_kmeans_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_method_projection_summary.tex",
+    "sha256": "066d3a128043a5148f3b5cd9edac8c89cb1917c3cb33abd0d0e5aab340e8f6e6",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_method_projection_summary.tex"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_leiden_dimension_metric_trends.csv",
+    "sha256": "a47c441aa002967a63d179e4d4f0fd416f0fa9768dab93acb1c5e8387e65a481",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_leiden_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_leiden_dimension_metric_trends.csv",
+    "sha256": "9161680508fc962d03c9619cd66fe69ceb6744811e5367f1f7bdc1fd5547cf26",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_leiden_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/table1_method_projection_summary_cluster_structure_stability.csv",
+    "sha256": "64b73466a95dca2c1cd2a275f42ec6a4213d3a195ea8ab11117e43b2068839ab",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_method_projection_summary_cluster_structure_stability.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/table1_method_projection_summary_cluster_structure_stability.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_dimension_metric_trends.csv",
+    "sha256": "8a2d3bb1f93c198616da94da2fda035045f0cb7099b9eaa2e64e596d40419604",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_icaird100k_uni2_spherical_kmeans_dimension_metric_trends.csv",
+    "sha256": "d04dfb10250a7506ee7f778d800a7252fdf83c67136c3170155a6a619501cb6b",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_icaird100k_uni2_spherical_kmeans_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_hdbscan_dimension_metric_trends.png",
+    "sha256": "1de4de8dc7a7118d6d41f30dad1940243f94bc4eae98bf6a241c6563ecaa2dee",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_hdbscan_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/table1_method_projection_summary.csv",
+    "sha256": "69169e4efd387a0bfa95fe24c4a252396089a78319ddfd0a098a8b7ec9e661d5",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_method_projection_summary.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/table1_method_projection_summary.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_icaird100k_uni2_hdbscan_dimension_metric_trends.csv",
+    "sha256": "dcee0dbd40f6a7857acbac5d5ef690c9f79acf6ed7253bfc10ca24af64f22b90",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_icaird100k_uni2_hdbscan_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_hdbscan_dimension_metric_trends.csv",
+    "sha256": "3e39682154614eb6066acf6f775e4eaed5e390ba0fc63711240b5f8880ccba02",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_hdbscan_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_spherical_kmeans_dimension_metric_trends.csv",
+    "sha256": "bee4d6911977a9a59d1fc18e350a574b7a1310a8a0c884ed8a25c746a138ec0f",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_spherical_kmeans_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_icaird100k_uni2_hdbscan_dimension_metric_trends.png",
+    "sha256": "5294b85f4076cd04391cdd78fd70056aaf8309600b10ac1bc8506ff3a295d65d",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_icaird100k_uni2_hdbscan_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_spherical_kmeans_dimension_metric_trends.csv",
+    "sha256": "bf2de6e0c6ccb51193c3176cab6641e163aebf32f13a7e298b45586409728ed8",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_spherical_kmeans_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_dimension_metric_trends.png",
+    "sha256": "7a95cbc69ad41a26ff1fd05eec7726d02bee866ffb652c24a4ce8e5cd4b081ff",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_spherical_kmeans_dimension_metric_trends.png",
+    "sha256": "322040d957dca372f420016771b80472bfcb2795dbe22a2f06320354aef7f0dc",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_spherical_kmeans_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_hdbscan_dimension_metric_trends.png",
+    "sha256": "4314ebfbb00b6580c69966b89091bad81b79af5b93d2a5468e40c33951f3bbfa",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_hdbscan_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_icaird100k_uni2_leiden_dimension_metric_trends.png",
+    "sha256": "b79c23de87967ac474b3e309abefdd4426c0f91071281f5de1383fab332deef7",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_icaird100k_uni2_leiden_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_icaird100k_uni2_seed_variation_dimension_metric_trends.csv",
+    "sha256": "f14d668439636e3447ae5439073a7dabe5b4a4956dac4223c176dfb1a8fa4eb6",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_icaird100k_uni2_seed_variation_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_icaird100k_uni2_spherical_kmeans_dimension_metric_trends.png",
+    "sha256": "d1fa902ae9285e5dd628d44a71cb3c30a28c074e731539045d2375863317a9d9",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_icaird100k_uni2_spherical_kmeans_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_method_projection_summary_external_information.tex",
+    "sha256": "2537cc17602436958b350b964cf8fa19a5bfd974b2b17ca421071905b3f1b466",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_method_projection_summary_external_information.tex"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_icaird100k_uni2_kmeans_dimension_metric_trends.csv",
+    "sha256": "86434623086fa48b7c806ae981f1c099b2434935cdca66d6fc16c2cffb1deaa6",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_icaird100k_uni2_kmeans_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_icaird100k_uni2_hdbscan_dimension_metric_trends.png",
+    "sha256": "6390dfe2d7cf30426c06fada7be2e1ae51db6f661178ccaedb14112b2106229c",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_icaird100k_uni2_hdbscan_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_icaird100k_uni2_hdbscan_dimension_metric_trends.csv",
+    "sha256": "dbd28a9594292d2267c777c16001ea9a806ce54e0821209c41caca76bdd0f5e1",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_icaird100k_uni2_hdbscan_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_icaird100k_uni2_spherical_kmeans_dimension_metric_trends.png",
+    "sha256": "be670a61bb52b62791d0e0ad29e21f77937de391070def17c02f17da726244ea",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_icaird100k_uni2_spherical_kmeans_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_method_projection_summary_cluster_structure_stability.csv",
+    "sha256": "64b73466a95dca2c1cd2a275f42ec6a4213d3a195ea8ab11117e43b2068839ab",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_method_projection_summary_cluster_structure_stability.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/table1_method_projection_summary_cluster_structure_stability.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_dimension_metric_trends.csv",
+    "sha256": "9fcf9703defc1afc1867839189aa90014018cdcfef5205018f7ec0af05569e2b",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_leiden_dimension_metric_trends.png",
+    "sha256": "bbb347c75a9575ff0b774622e99be10b0890bc0c93a69f21400d6f53c8a8fbe6",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_leiden_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_method_projection_summary.csv",
+    "sha256": "69169e4efd387a0bfa95fe24c4a252396089a78319ddfd0a098a8b7ec9e661d5",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_method_projection_summary.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/table1_method_projection_summary.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_dimension_metric_trends.png",
+    "sha256": "d7d67e5de2a82e540c95b8cdf15ee87275ea7c23155316892169f951ed18209a",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_icaird100k_uni2_seed_variation_dimension_metric_trends.png",
+    "sha256": "0a20533a634cad55cd7481702316e41bedcfaa5182f9d5ca572c26649b2adadd",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_icaird100k_uni2_seed_variation_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_icaird100k_uni2_kmeans_dimension_metric_trends.png",
+    "sha256": "f3c3eb0ff4353ece40ecd9abd3012821ea5c1bcd0c8571e8b4fc33c3c2525234",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_icaird100k_uni2_kmeans_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_icaird100k_uni2_spherical_kmeans_dimension_metric_trends.csv",
+    "sha256": "5776a88d01ed2ee05333f9ab832244af4172819868a54fe54e17f0998bfae8d4",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_icaird100k_uni2_spherical_kmeans_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/table1_method_projection_summary_external_information.csv",
+    "sha256": "7c73ebf9ee73f162d4f02e5d0a80a9b5e17c45ff33117403ea4b307d5b52d1b9",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/table1_method_projection_summary_external_information.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_method_projection_summary_external_information.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_kmeans_dimension_metric_trends.png",
+    "sha256": "612fe7a100be41bd23b28a5aa46f724684707dcab1b91a90f174822ba10db293",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_kmeans_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_leiden_dimension_metric_trends.png",
+    "sha256": "2844262b64f0c646e9bdd8cd1f00f6ecfaa558772d5b609dafbb9582de37673b",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_leiden_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_kmeans_dimension_metric_trends.csv",
+    "sha256": "c84c8858022464a557ee14365196d190d64318ec43f4db9330ee2d9847cef378",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_kmeans_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_kmeans_dimension_metric_trends.png",
+    "sha256": "a2499ad4d9da27a106d799ad6a9786cae2307cf6bb8d2759a2af6e2db480b045",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_kmeans_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_icaird100k_uni2_seed_variation_dimension_metric_trends.png",
+    "sha256": "5be89270a42353529264ee401ce1624f10225254ff1f88b969ae6ae75e4b348a",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_icaird100k_uni2_seed_variation_dimension_metric_trends.png"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_method_projection_summary_external_information.csv",
+    "sha256": "7c73ebf9ee73f162d4f02e5d0a80a9b5e17c45ff33117403ea4b307d5b52d1b9",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/table1_method_projection_summary_external_information.csv",
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_method_projection_summary_external_information.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_method_projection_summary_cluster_structure_stability.tex",
+    "sha256": "dd9671d75d561963949905d5395b2b31a8427f8caaa1a4fe7125e077b6d47a40",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_method_projection_summary_cluster_structure_stability.tex"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/table1_method_projection_summary.tex",
+    "sha256": "a5227604bc0cd5cc61c674005f43a3174d4f9ddd296d7d1fb5ebbe1cb609d844",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/table1_method_projection_summary.tex"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_stability.csv",
+    "sha256": "28c4f134492330a4edad407718c21346db512f0aa56b5eb309347c56535d6005",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_stability.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_icaird100k_uni2_kmeans_dimension_metric_trends.csv",
+    "sha256": "a35b8524dd3381cf8f58e122aba566da7b7200866ec2aab4b7e57c7225868b79",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_icaird100k_uni2_kmeans_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_umap_icaird100k_uni2_leiden_dimension_metric_trends.csv",
+    "sha256": "73824b9fff55094566154e967b4eeb8e906c2f203d4d3caec4fc1f821de54939",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_umap_icaird100k_uni2_leiden_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "wopr",
+    "remote": "/home/dm236/scratch/histology_clustering/output/clustering-curve-targets/clustering_results_pca_icaird100k_uni2_seed_variation_dimension_metric_trends.csv",
+    "sha256": "7c7312212052aa49c84d9b5b2b1fe48463151fa7b7c004bde7d8eb0c054dc928",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter6-clustering/res/clustering_results_pca_icaird100k_uni2_seed_variation_dimension_metric_trends.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/generation-timing/patch-generation-times.csv",
+    "sha256": "def0b5ff20afd48906872d837f3f09497bf77ccb8627bbcc2e33cdd68976f632",
+    "local": [
+      "/Users/dm236/Documents/Synthetic Histopathology/final-results/generation-timing/patch-generation-times.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/generation-timing/patch-generation-times.tex",
+    "sha256": "7ce394cf35b9bff577fdd9dbff419ba816e4a27b8ef882b40723d697aabb241c",
+    "local": [
+      "/Users/dm236/Documents/Synthetic Histopathology/final-results/generation-timing/patch-generation-times.tex"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/generation-timing/patch-generation-times-metadata.json",
+    "sha256": "deb49cc30fbb624790effc287dd7dee5d3375863b3f1b5e545577490a1257654",
+    "local": [
+      "/Users/dm236/Documents/Synthetic Histopathology/final-results/generation-timing/patch-generation-times-metadata.json"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/main_icaird_cervical100k_budget/utility_metrics.csv",
+    "sha256": "d1c9bb020fdaa255b871268cc4f2ef2831b1b9b12be03081d5562559540915f2",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/reports/main_icaird_cervical100k_budget/utility_metrics.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/main_icaird_cervical100k_budget/quality_metrics.csv",
+    "sha256": "01dc8a5b9d2b161adee9d33f755c4e162dc84832090d1fe4bdd56fd6145afa70",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/reports/main_icaird_cervical100k_budget/quality_metrics.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/main_icaird_cervical100k_budget/results.csv",
+    "sha256": "052a425e4c96a0f3bdbc56f5c8f20d69c5f6f83324a86cf6f6adfc51ec77e5cd",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/reports/main_icaird_cervical100k_budget/results.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/cluster_k_calibration_2_50/selected_k.csv",
+    "sha256": "c6854e8b963d51aee548d3b274f76e96af651376b1d092d71d02e800a8ff3d23",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/clustering/cluster_k_calibration_2_50/selected_k.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/cluster_k_calibration_2_50/inertia_elbow_curves.png",
+    "sha256": "ee8d6eade1491a748e17f99a0e7ba25b27e9492cbcfeebdc5c87bcfa66b1cec0",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/clustering/cluster_k_calibration_2_50/inertia_elbow_curves.png"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/cluster_k_calibration_2_50/metadata.json",
+    "sha256": "e0e9a5cfc4e0410114e38227a1474b3eeff0b46dc4d4b290f978f1c0efdbfd77",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/clustering/cluster_k_calibration_2_50/metadata.json"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/cluster_k_calibration_2_50/cluster_validity_results.csv",
+    "sha256": "28ec2befa15782377bbd1e28c43002a95563c8a8edd73bcdc8c38ff919418e7a",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/clustering/cluster_k_calibration_2_50/cluster_validity_results.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/cluster_k_calibration_2_50/sd_index_curves.png",
+    "sha256": "a86e86f7b4db08a9ce3879f16939df50521d6ca9700adc0707b70616c1d3f15f",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/clustering/cluster_k_calibration_2_50/sd_index_curves.png"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/cluster_k_calibration_2_50/osorio_released_audit.csv",
+    "sha256": "1deeb98226afa3d4d3e83d250103c4fdf38de6750379b662029aec1360b58a10",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/clustering/cluster_k_calibration_2_50/osorio_released_audit.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/cluster_k_calibration_2_50/silhouette_curves.png",
+    "sha256": "dbdaed30dcbca491897834963f815c8c7f1dd4125f6f7d06a1f17cd44affe037",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/clustering/cluster_k_calibration_2_50/silhouette_curves.png"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/cluster_k_calibration_2_50/tracks/icaird_cervical100k_uni2.png",
+    "sha256": "16436f9a33e2bc4bb0f55789a244aca356d6bb44170409185534300dd2de0582",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/clustering/cluster_k_calibration_2_50/tracks/icaird_cervical100k_uni2.png"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/cluster_k_calibration_2_50/tracks/pcam_uni2.png",
+    "sha256": "86f3b84de43f5b01c80bd95375aee72bc54caf0ab483df4075868f3ccd3307d2",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/clustering/cluster_k_calibration_2_50/tracks/pcam_uni2.png"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/cluster_k_calibration_2_50/tracks/icaird_cervical100k_dino_vitb8.png",
+    "sha256": "c03db110028c8426b1fc996275a638482384cb25994cc7162b3b0f2a8bc6c632",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/clustering/cluster_k_calibration_2_50/tracks/icaird_cervical100k_dino_vitb8.png"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/cluster_k_calibration_2_50/tracks/pcam_osorio_uni2.png",
+    "sha256": "8fe91d671d92ba8048eec9f0b9637ff1232afb4d3c7a3d25e050ade0903879be",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/clustering/cluster_k_calibration_2_50/tracks/pcam_osorio_uni2.png"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/cluster_k_calibration_2_50/tracks/pathmnist224_dino_vitb8.png",
+    "sha256": "3dfb636527a7172028a52be1519b3a01470959ccabb972d65cf99354ce9aaa1e",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/clustering/cluster_k_calibration_2_50/tracks/pathmnist224_dino_vitb8.png"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/cluster_k_calibration_2_50/tracks/pathmnist224_uni2.png",
+    "sha256": "1fddd99ee65e3b8b350b7c4017c739376d413f6e9e121e089cd5a72ba93c526b",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/clustering/cluster_k_calibration_2_50/tracks/pathmnist224_uni2.png"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/cluster_k_calibration_2_50/tracks/pcam_osorio_dino_vitb8.png",
+    "sha256": "4be6319e318cfd8e31a3f1997fa42850493f6e411af400036eb4f498e97c586a",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/clustering/cluster_k_calibration_2_50/tracks/pcam_osorio_dino_vitb8.png"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/cluster_k_calibration_2_50/tracks/pcam_dino_vitb8.png",
+    "sha256": "a642a7e2103c25c2cefefc798109715a41f38a43718e3261c5be03e63611e063",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter4-synthetic-patches/clustering/cluster_k_calibration_2_50/tracks/pcam_dino_vitb8.png"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/final_original_experiment/utility_results_accuracy_roc_auc.csv",
+    "sha256": "0a7b51192d321af05c3204085415b9f48d9aa545b5a54ae7f928b1cc93ac9500",
+    "local": [
+      "/Users/dm236/Documents/Synthetic Histopathology/final-results/utility_results_accuracy_roc_auc.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/final_original_experiment/quality_results_fid_ip_ir_authenticity.csv",
+    "sha256": "4207a487baf8ebc3f6107fbe33fe118de35e4032793e8bab922e4909ebeea230",
+    "local": [
+      "/Users/dm236/Documents/Synthetic Histopathology/final-results/quality_results_fid_ip_ir_authenticity.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reports/final_original_experiment/generation_condition_counts.csv",
+    "sha256": "71009b1993265719338117cbc750fe0fefef5c75150bd152c7f07aa9300c3db3",
+    "local": [
+      "/Users/dm236/Documents/Synthetic Histopathology/final-results/generation_condition_counts.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath/reporting/rq1-normalized-fid/inputs/quality_results_fid_ip_ir_authenticity.csv",
+    "sha256": "4207a487baf8ebc3f6107fbe33fe118de35e4032793e8bab922e4909ebeea230",
+    "local": [
+      "/Users/dm236/Documents/Synthetic Histopathology/final-results/quality_results_fid_ip_ir_authenticity.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/dm236/synpath_balanced_global_clusters/reports/balanced_global_cluster_nufd.csv",
+    "sha256": "9f482d26f47d32dd74b4548c8ef3a1a8295615acec5f8db8604f40ba188c6aa5",
+    "local": [
+      "/Users/dm236/Documents/Synthetic Histopathology/final-results/low-d-global-nufd.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/experiments/dimred_dgx_followup/hypatia_curve_source/intrinsic_dims.csv",
+    "sha256": "465760f6e755c7efdcb273f40355bb78909521d6dcd3f7dd6776a31859b50167",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/intrinsic_dims.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/experiments/dimred_dgx_followup/hypatia_curve_source/curve/thresholds_results.csv",
+    "sha256": "b0b14ba7a7530705806bbd508741bbba9eefaba327ce9fae77f5fc31fd9248d0",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/curve/thresholds_results.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/experiments/dimred_dgx_followup/output/dgx-dimred-followup/summary_by_seed.csv",
+    "sha256": "6b5407f9b5258a7a480431abbbc0f5d4c68aa33cadbdf8aa297cc1ed5a9e120f",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter7-low-dimensional-embedding-synthesis/dgx-dimred-followup/summary_by_seed.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/experiments/dimred_dgx_followup/output/dgx-dimred-followup/threshold_dimensions_copied.csv",
+    "sha256": "573b6964efc4817776fce618e470d38aee6fd173cfd1d5d8f26b355621fa8495",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter7-low-dimensional-embedding-synthesis/dgx-dimred-followup/threshold_dimensions_copied.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/experiments/dimred_dgx_followup/output/dgx-dimred-followup/manifest_audit.csv",
+    "sha256": "5408c00b4835644d8579092d85454a7ea85b878fc2d42c247ed37824b776c965",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter7-low-dimensional-embedding-synthesis/dgx-dimred-followup/manifest_audit.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/experiments/dimred_dgx_followup/output/dgx-dimred-followup/summary_by_dataset_encoder.csv",
+    "sha256": "aa103c2c76db261891a0dae009d7ed00ec8d88be26cba24001c5a4335015fce5",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter7-low-dimensional-embedding-synthesis/dgx-dimred-followup/summary_by_dataset_encoder.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/experiments/dimred_dgx_followup/output/dgx-dimred-followup/summary_by_target.csv",
+    "sha256": "53010caacc22b115d916d19e0ba349d1c7fc8f763306b10a80e6e66477023a69",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter7-low-dimensional-embedding-synthesis/dgx-dimred-followup/summary_by_target.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/experiments/dimred_dgx_followup/output/dgx-dimred-followup/results.csv",
+    "sha256": "7df8197d9b4b8ca8ebe9bbaf9afd98e73384aecca9dd0b551057abcb1fe45c3a",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter7-low-dimensional-embedding-synthesis/dgx-dimred-followup/results.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/experiments/dimred_dgx_followup/output/dgx-dimred-followup/run_config.yml",
+    "sha256": "48f7630fca41035f0ea4a5528c49070528bb0ab1e90ad14fcc308a0267847f36",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter7-low-dimensional-embedding-synthesis/dgx-dimred-followup/run_config.yml"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/experiments/dimred_dgx_followup/output/dgx-dimred-followup/intrinsic_dimensions_copied.csv",
+    "sha256": "de35afb35263c59a9f703f75bc4535310b6aed6ef44ca28b19bf6eebd5505428",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter7-low-dimensional-embedding-synthesis/dgx-dimred-followup/intrinsic_dimensions_copied.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/experiments/dimred_dgx_followup/output/dgx-dimred-followup/task_manifest.csv",
+    "sha256": "31e14054c215ed1b167709540e280a7e11793b9514a86e99cd136d3e1cb57e87",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter7-low-dimensional-embedding-synthesis/dgx-dimred-followup/task_manifest.csv"
+    ]
+  },
+  {
+    "host": "dgx",
+    "remote": "/raid/experiments/dimred_dgx_followup/output/dgx-dimred-followup/report/dgx_dimred_followup.tex",
+    "sha256": "2713a1e5dd80cfa5d21ef71c633b1ea220b258125bfba29c1ba27331c1e6bd2a",
+    "local": [
+      "/Users/dm236/Documents/Research/AllResults/Chapter7-low-dimensional-embedding-synthesis/dgx-dimred-followup/report/dgx_dimred_followup.tex"
+    ]
+  }
+]

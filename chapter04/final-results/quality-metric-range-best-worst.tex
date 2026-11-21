@@ -1,0 +1,31 @@
+% Requires \usepackage{booktabs,multirow}
+\begin{table}[htbp]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{lllrlr}
+\toprule
+Dataset & Metric & Range & Best configuration & Best & Worst configuration / value \\
+\midrule
+\multirow{5}{*}{iCAIRD} & FID & 10.01--195.94 & SG2, Unconditioned & 10.01 & DCG, Global cluster / 195.94 \\
+ & nUFD & 9.89--76.44 & SG2, Unconditioned & 9.89 & DCG, Class label / 76.44 \\
+ & IP & 0.0002--0.3782 & DCG, Class + global & 0.3782 & SD, Unconditioned / 0.0002 \\
+ & IR & 0.0000--0.0237 & SG2, Global cluster & 0.0237 & Multiple (10) / 0.0000 \\
+ & Authenticity & 0.9775--1.0000 & Multiple (5) & 1.0000 & SG2, Unconditioned / 0.9775 \\
+\midrule
+\multirow{5}{*}{Kather 100K} & FID & 28.98--193.20 & SG2, Class label & 28.98 & DCG, Global cluster / 193.20 \\
+ & nUFD & 15.74--84.70 & SG2, Class + local & 15.74 & DCG, Global cluster / 84.70 \\
+ & IP & 0.0000--0.0994 & SG2, Class + local & 0.0994 & Multiple (5) / 0.0000 \\
+ & IR & 0.0000--0.0106 & SD, Global cluster & 0.0106 & Multiple (6) / 0.0000 \\
+ & Authenticity & 0.9992--1.0000 & Multiple (9) & 1.0000 & SG2, Class + local / 0.9992 \\
+\midrule
+\multirow{5}{*}{PCam} & FID & 16.70--239.95 & SG2, Class + local & 16.70 & DCG, Class + global / 239.95 \\
+ & nUFD & 24.54--108.27 & SG2, Class + local & 24.54 & DCG, Class + global / 108.27 \\
+ & IP & 0.0000--0.2387 & SG2, Unconditioned & 0.2387 & Multiple (3) / 0.0000 \\
+ & IR & 0.0000--0.0357 & SD, Class label & 0.0357 & Multiple (11) / 0.0000 \\
+ & Authenticity & 0.9796--1.0000 & Multiple (10) & 1.0000 & SG2, Unconditioned / 0.9796 \\
+\bottomrule
+\end{tabular}
+\caption{Observed metric ranges and best and worst generator configurations within each dataset. SG2 denotes StyleGAN2-ADA, SD denotes SD-LoRA, and DCG denotes DCGAN. Multiple indicates an exact tie. FID extrema are reported only within datasets because raw FID is not comparable across datasets.}
+\label{tab:quality-range-best-worst}
+\end{table}

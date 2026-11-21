@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "matplotlib": "3.10.9",
+    "scikit-learn": "1.9.0"
+  },
+  "purpose": "Environment used for report-level validation; not asserted to be the historical GPU training environment."
+}

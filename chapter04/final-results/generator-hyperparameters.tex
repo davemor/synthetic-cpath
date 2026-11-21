@@ -1,0 +1,104 @@
+% Requires \usepackage{booktabs}
+
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{ll}
+\toprule
+Parameter & Value \\
+\midrule
+Implementation & NVIDIA StyleGAN3 codebase, StyleGAN2 configuration \\
+Training resolution & $256\times256$ \\
+Augmentation & Adaptive discriminator augmentation (ADA) \\
+ADA target & $0.6$ \\
+Batch size & 32 \\
+Generator/discriminator optimiser & Adam \\
+Learning rate & $2\times10^{-3}$ \\
+Adam $\beta_1,\beta_2$ & $0,\,0.99$ \\
+R1 regularisation $\gamma$ & $0.8192$ \\
+Style-mixing probability & $0.9$ \\
+Path-length weight & $2$ \\
+EMA half-life & 10 kimg \\
+Training budget & Kather: 25,000 kimg; iCAIRD/PCam: 2,000 kimg \\
+GPUs & Kather: 1; iCAIRD/PCam: 8 \\
+Sampling truncation $\psi$ & $1.0$ \\
+Generator seed & 0 \\
+\bottomrule
+\end{tabular}
+\caption{Executed StyleGAN2-ADA hyperparameters. Conditional runs used
+the native class-conditioning input; unconditioned runs used no condition
+vector. Values were recovered from the persisted
+\texttt{training\_options.json} artifacts.}
+\label{tab:stylegan2ada-hyperparameters}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lccc}
+\toprule
+Parameter & Kather 100K & iCAIRD & PCam \\
+\midrule
+Base model & \multicolumn{3}{c}{Stable Diffusion 1.5
+(\texttt{runwayml/stable-diffusion-v1-5})} \\
+Adapted component & \multicolumn{3}{c}{UNet attention layers only} \\
+Text encoder & \multicolumn{3}{c}{Frozen CLIP text encoder} \\
+LoRA rank & \multicolumn{3}{c}{4} \\
+Training resolution & \multicolumn{3}{c}{$256\times256$} \\
+Training images & 89,996 & 100,000 & 50,000 \\
+Optimisation steps & 10,000 & 10,000 & 12,500 \\
+Learning rate & $10^{-4}$ & $10^{-4}$ & $10^{-5}$ \\
+Batch/device & 16 & 16 & 8 \\
+Effective batch size & 128 & 128 & 64 \\
+Gradient accumulation & 1 & 1 & 1 \\
+Precision & FP32 & FP32 & FP32 \\
+Gradient checkpointing & No & No & No \\
+Sampling resolution & \multicolumn{3}{c}{$256\times256$} \\
+Denoising steps & \multicolumn{3}{c}{30} \\
+Classifier-free guidance & \multicolumn{3}{c}{$7.5$} \\
+Generator seed & \multicolumn{3}{c}{0} \\
+\bottomrule
+\end{tabular}
+\caption{Executed SD-LoRA hyperparameters for the original experiment.
+Conditioning was supplied through text prompts, and the cluster identifier
+was discarded during evaluation. The persisted logs show that the original
+runs used rank 4 and FP32; rank 16 and FP16 were introduced only in later
+diagnostic audits.}
+\label{tab:sd-lora-hyperparameters}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{ll}
+\toprule
+Parameter & Value \\
+\midrule
+Training resolution & $256\times256$ \\
+Latent dimension & 128 \\
+Base channel width & 64 \\
+Batch size & 128 \\
+Maximum epochs & 50 \\
+Optimisation cap & 20,000 steps \\
+Executed steps & Kather/iCAIRD: 20,000; PCam: 19,500 \\
+Generator/discriminator optimiser & Adam \\
+Learning rate & $2\times10^{-4}$ \\
+Adam $\beta_1,\beta_2$ & $0.5,\,0.999$ \\
+Adversarial loss & Binary cross-entropy with logits \\
+Generator activation & ReLU; Tanh output \\
+Discriminator activation & Leaky ReLU ($0.2$) \\
+Weight initialisation & $\mathcal{N}(0,0.02)$ \\
+Conditional embedding dimension & 128 (generator) \\
+Sampling distribution & $z\sim\mathcal{N}(0,I)$ \\
+Sampling batch size & 128 \\
+Generator seed & 0 \\
+\bottomrule
+\end{tabular}
+\caption{Executed conditional DCGAN hyperparameters. Condition embeddings
+were concatenated with the latent vector in the generator and supplied as an
+additional spatial channel to the discriminator.}
+\label{tab:dcgan-hyperparameters}
+\end{table}

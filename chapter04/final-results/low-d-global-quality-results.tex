@@ -1,0 +1,21 @@
+% Requires \usepackage{booktabs,multirow}
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lllrrrrr}
+\toprule
+Dataset & Architecture & Conditioning & FID $\downarrow$ & nUFD $\downarrow$ & IP $\uparrow$ & IR $\uparrow$ & Auth. $\uparrow$ \\
+\midrule
+\multirow{3}{*}{iCAIRD} & StyleGAN2-ADA & Class + low-d global & \textbf{34.09} & \textbf{17.11} & \textbf{0.0589} & \textbf{0.0018} & 0.9808 \\
+ & SD-LoRA & Class + low-d global & 59.31 & 45.52 & 0.0000 & 0.0000 & \textbf{1.0000} \\
+ & DCGAN & Class + low-d global & 142.68 & 72.45 & 0.0000 & 0.0000 & \textbf{1.0000} \\
+\midrule
+\multirow{3}{*}{Kather 100K} & StyleGAN2-ADA & Class + low-d global & \textbf{30.29} & \textbf{17.38} & \textbf{0.0621} & \textbf{0.0025} & 0.9997 \\
+ & SD-LoRA & Class + low-d global & 77.09 & 45.05 & 0.0016 & 0.0004 & \textbf{1.0000} \\
+ & DCGAN & Class + low-d global & 203.35 & 85.94 & 0.0000 & 0.0000 & \textbf{1.0000} \\
+\bottomrule
+\end{tabular}
+\caption{Patch-synthesis quality for the class + low-d global runs. The conditioning combines pathology class labels with 24 global KMeans clusters fitted to low-dimensional UNI2 representations (PCA-42 for iCAIRD and PCA-50 for Kather 100K). FID and nUFD are lower-is-better; improved precision (IP), improved recall (IR), and UNI Authenticity are higher-is-better. nUFD uses the matched real-versus-real UNI Fr\'echet floor and 10,000 deterministically selected samples. Results are from generator seed 0. Bold denotes the best value within each dataset.}
+\label{tab:low-d-global-quality}
+\end{table}

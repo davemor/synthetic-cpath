@@ -1,0 +1,14 @@
+dataset:
+  index: "icaird_cervical_mini/index.csv"
+  labels: "icaird_cervical_mini/labels.json"
+  slides_dir: "slides"
+  annotations_dir: "annotations"
+
+patchsets_dir: "icaird_cervical_mini/pipeline_research/patchsets"
+patches_dir: "icaird_cervical_mini/pipeline_research/patches"
+thumbnails_dir: "icaird_cervical_mini/pipeline_research/thumbnails/16pix_per_patch"
+patch_size: 224
+patch_level: 1
+patch_display_size: 16
+default_tissue_threshold: 0.050
+scrollable_thumbnail_viewport: true

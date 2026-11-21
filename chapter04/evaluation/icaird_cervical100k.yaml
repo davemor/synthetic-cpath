@@ -1,0 +1,14 @@
+name: icaird_cervical100k
+display_name: iCAIRD Cervical 100K
+kind: indexed_parquet
+image_size: 224
+splits: from_index
+validation: from_index_or_stratified_from_train
+root: /raid/dm236/data/icaird_cervical/icaird_cervical_120k_trainonly_slide_split_uni2_labelbalanced_kcenter
+image_root: /raid/dm236/data/icaird_cervical/icaird_cervical_120k_trainonly_slide_split_uni2_labelbalanced_kcenter/images
+index_parquet: /raid/dm236/data/icaird_cervical/icaird_cervical_120k_trainonly_slide_split_uni2_labelbalanced_kcenter/embeddings/uni2_h/index.parquet
+label_column: annotation_label_name
+manifest: ${oc.env:SYNPATH_DATA_ROOT,data}/manifests/icaird_cervical100k.csv
+labels:
+  source: index_parquet.annotation_label_name
+  type: multiclass

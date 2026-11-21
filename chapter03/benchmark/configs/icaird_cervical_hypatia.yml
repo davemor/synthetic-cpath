@@ -1,0 +1,66 @@
+run:
+  output_dir: /home/dm236/scratch/icaird_cervical_benchmark/runs
+  seeds: [0]
+
+data:
+  dataset_root: /home/dm236/scratch/data/icaird_cervical/icaird_cervical_120k_trainonly_slide_split_uni2_labelbalanced_kcenter/images
+  image_size: 224
+  num_workers: 8
+
+images:
+  enabled: true
+  models: [resnet18, densenet121, efficientnet_b4, convnext_tiny, swin_tiny_patch4_window7_224]
+  optional_models: [vit_b_16]
+  epochs: 100
+  batch_size: 64
+  patience: 10
+  pretrained: true
+  search:
+    method: fixed
+    n_iter: 1
+    learning_rate: [1.0e-4]
+    weight_decay: [1.0e-4]
+
+probes:
+  enabled: true
+  cv_folds: 5
+  embeddings:
+    uni: /home/dm236/scratch/data/icaird_cervical/icaird_cervical_120k_trainonly_slide_split_uni2_labelbalanced_kcenter/embeddings/uni
+    uni2:
+      path: /home/dm236/scratch/data/icaird_cervical/icaird_cervical_120k_trainonly_slide_split_uni2_labelbalanced_kcenter/embeddings/uni2_h
+      citation: "MahmoodLab/UNI2-h model card: https://huggingface.co/MahmoodLab/UNI2-h"
+    hibou: /home/dm236/scratch/data/icaird_cervical/icaird_cervical_120k_trainonly_slide_split_uni2_labelbalanced_kcenter/embeddings/hibou_l
+    dinov2: /home/dm236/scratch/data/icaird_cervical/icaird_cervical_120k_trainonly_slide_split_uni2_labelbalanced_kcenter/embeddings/dinov2_large
+    manual_features: /home/dm236/scratch/data/icaird_cervical/icaird_cervical_120k_trainonly_slide_split_uni2_labelbalanced_kcenter/embeddings/manual_features
+  classifiers:
+    logistic-regression:
+      params:
+        C: [1, 100]
+        max_iter: [2000]
+        linesearch_max_iter: [300]
+        tol: [1.0e-5]
+    mlp:
+      params:
+        hidden_layer_sizes: [[100, 50]]
+        activation: [relu]
+        solver: [adam]
+        alpha: [0.001]
+        learning_rate: [constant]
+        learning_rate_init: [0.001]
+        max_iter: [200]
+        early_stopping: [true]
+    xgboost:
+      search:
+        method: random
+        n_iter: 12
+        random_state: 0
+      params:
+        n_estimators: [100, 200]
+        learning_rate: [0.05, 0.1]
+        max_depth: [3, 6]
+        min_child_weight: [1, 8]
+        subsample: [0.8, 1.0]
+        colsample_bytree: [0.8, 1.0]
+        gamma: [0, 0.5]
+        reg_lambda: [1.0, 10.0]
+        reg_alpha: [0, 0.001]

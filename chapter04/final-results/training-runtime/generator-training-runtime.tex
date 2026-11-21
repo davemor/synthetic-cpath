@@ -1,0 +1,17 @@
+% Requires \usepackage{booktabs}
+\begin{table}[htbp]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+Architecture & Models & Time/model & Total wall & GPU-hours \\
+\midrule
+StyleGAN2-ADA & 15 & 4h 50m 26s $\pm$ 0h 20m 48s & 72h 36m 25s & 580.9 \\
+SD-LoRA & 15 & 2h 17m 0s $\pm$ 0h 22m 59s & 34h 14m 58s & 274.0 \\
+DCGAN & 15 & Not recorded & -- & -- \\
+\bottomrule
+\end{tabular}
+\caption{Generator training cost for the 45 canonical models. Times are wall-clock mean $\pm$ SD across conditioning regimes and datasets; GPU-hours are cumulative across models with recorded runtimes. DCGAN runtime was not retained by the original pipeline.}
+\label{tab:generator-training-runtime}
+\end{table}

@@ -1,0 +1,125 @@
+name: main_icaird_cervical100k_dcgan
+
+datasets:
+  - icaird_cervical100k
+
+generators:
+  - stylegan2ada
+  - sd_lora
+  - dcgan
+
+conditioning_modes:
+  - true_label
+  - unconditioned
+  - pseudo_label
+  - label_global_cluster
+  - label_local_cluster
+
+seeds:
+  generators: [0]
+  classifiers: [0, 1, 2]
+  clustering: [0, 1, 2]
+
+images:
+  native_size: 224
+  generator_size: 256
+  output_format: png
+  stain_normalization: false
+
+pseudo_labels:
+  encoder: uni
+  algorithm: kmeans
+  k_candidates: [4, 8, 16, 32, 64]
+  label_local_cluster_k_candidates: [2, 4, 8, 16]
+  min_cluster_size: 50
+  selection:
+    silhouette_weight: 1.0
+    davies_bouldin_weight: 1.0
+    stability_weight: 1.0
+
+generation:
+  synthetic_multiplier: 1.0
+  preserve_distribution: true
+  sd_lora:
+    train_batch_size: 16
+    max_train_steps: 10000
+    learning_rate: 0.0001
+    sample_batch_size: 8
+    sample_gpus: 8
+    sample_height: 256
+    sample_width: 256
+  stylegan2ada:
+    backend: stylegan3
+    cfg: stylegan2
+    aug: ada
+    batch_size: 32
+    gamma: 0.8192
+    kimg: 2000
+    tick: 4
+    snap: 50
+  dcgan:
+    image_size: 256
+    latent_dim: 128
+    base_channels: 64
+    batch_size: 128
+    epochs: 50
+    max_steps: 20000
+    lr: 0.0002
+    beta1: 0.5
+    beta2: 0.999
+    num_workers: 4
+    sample_batch_size: 128
+    use_data_parallel: true
+
+metrics:
+  max_real: 10000
+  max_synthetic: 10000
+  authenticity_batch_size: 1024
+  seed: 0
+  quality:
+    - inception_fid
+    - uni_fid_kid
+    - uni_precision_recall
+    - uni_cluster_coverage
+    - privacy_nearest_neighbor
+    - uni_authenticity
+
+utility:
+  classifier: resnet18
+  pretrained: imagenet
+  synthetic_generators:
+    - stylegan2ada
+    - sd_lora
+    - dcgan
+  batch_size: 128
+  epochs: 50
+  lr: 0.001
+  weight_decay: 0.0001
+  evaluate_on: real_test
+  sources:
+    - real_only
+    - synthetic_only_true_label
+    - real_plus_synthetic_true_label
+    - synthetic_only_label_global_cluster
+    - real_plus_synthetic_label_global_cluster
+    - synthetic_only_label_local_cluster
+    - real_plus_synthetic_label_local_cluster
+  metrics:
+    - accuracy
+    - macro_f1
+    - weighted_f1
+    - macro_roc_auc_ovr
+    - classification_report
+    - confusion_matrix
+
+pipeline:
+  stages:
+    - prepare_data
+    - embed
+    - cluster
+    - build_conditions
+    - train_generator
+    - sample
+    - evaluate_quality
+    - train_utility
+    - report

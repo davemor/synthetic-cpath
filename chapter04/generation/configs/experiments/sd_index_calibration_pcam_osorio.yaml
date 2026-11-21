@@ -1,0 +1,64 @@
+name: cluster_sd_index_calibration_pcam_osorio_official
+cache_name: cluster_sd_index_calibration_pcam_osorio_official
+
+k_min: 2
+k_max: 50
+report_name: cluster_sd_index_calibration_pcam_osorio_official
+
+datasets:
+  pcam:
+    display_name: PCam with Osorio foreground curation
+    manifest: ${oc.env:SYNPATH_DATA_ROOT,/raid/dm236/synpath/data}/manifests/pcam_full.csv
+    expected_train: 262144
+    curation:
+      kind: osorio_pcam_foreground
+      workers: 72
+      thresholds:
+        th_V_max: 70
+        th_S_max: 3
+        th_std_V: 4
+        th_std_S: 4
+        th_std_H: 1.5
+        th_var_L: 100
+        th_n_contour: 10
+    feature_reuse:
+      dino_vitb8:
+        kind: indexed
+        features: /raid/dm236/synpath/cache/cluster_sd_index_calibration_full_pool/pcam/dino_vitb8/train_features.npy
+        features_key: null
+        index: /raid/dm236/synpath/cache/cluster_sd_index_calibration_full_pool/pcam/dino_vitb8/train_index.parquet
+        sample_id_column: sample_id
+        label_column: label
+      uni2:
+        kind: indexed
+        features: /raid/dm236/synpath/cache/cluster_sd_index_calibration_full_pool/pcam/uni2/train_features.npy
+        features_key: null
+        index: /raid/dm236/synpath/cache/cluster_sd_index_calibration_full_pool/pcam/uni2/train_index.parquet
+        sample_id_column: sample_id
+        label_column: label
+
+encoders:
+  dino_vitb8:
+    display_name: DINO ViT-B/8
+    model: facebook/dino-vitb8
+    dimension: 768
+    batch_size: 64
+  uni2:
+    display_name: UNI2-h
+    model: hf-hub:MahmoodLab/UNI2-h
+    dimension: 1536
+    batch_size: 32
+
+kmeans:
+  init: k-means++
+  n_init: 10
+  max_iter: 300
+  random_state: 0
+
+resources:
+  embedding_workers: 12
+  gpu_required: true
+
+report_notes:
+  - The released Osorio foreground-removal operations and thresholds are applied exactly, but the source population is the official 262,144-patch HDF5 training split rather than the authors' 220,025-patch deduplicated Kaggle training split.
+  - Existing DINO and UNI2 feature rows are selected only after exact sample-ID and patch-label alignment checks. No image embeddings are recomputed or transformed.

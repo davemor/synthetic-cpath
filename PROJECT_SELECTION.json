@@ -1,0 +1,181 @@
+{
+  "chapter01": {
+    "title": "Introduction",
+    "status": "No independent experimental code",
+    "components": []
+  },
+  "chapter02": {
+    "title": "Background",
+    "status": "Illustration scripts selected",
+    "components": [
+      "reporting"
+    ],
+    "basis": [
+      "S-curve image matches the local figure output by SHA-256; background plotting scripts recovered. Clinical images and manually drawn diagrams are thesis assets, not separate experiments."
+    ]
+  },
+  "chapter03": {
+    "title": "Dataset creation and preprocessing",
+    "status": "Source selected; final foreground and benchmark values traced",
+    "components": [
+      "histokit",
+      "patcher",
+      "benchmark",
+      "reporting"
+    ],
+    "authoritative_locations": [
+      "hypatia:/home/dm236/repos/histokit",
+      "hypatia:/home/dm236/repos/patcher",
+      "hypatia:/home/dm236/repos/icaird-cervical-benchmark",
+      "local:scripts"
+    ],
+    "basis": [
+      "All 5 foreground method rows match the Hypatia methods_performance_summary.csv.",
+      "All 20 embedding/image benchmark rows, including confidence intervals, match the Hypatia bootstrap export.",
+      "MIL table matches the saved 10,000-resample MIL bootstrap table.",
+      "Local and Hypatia histokit Python/shell/configuration files are identical in the preservation snapshots."
+    ],
+    "gaps": [
+      "Patch/image benchmark bootstrap export records 1000 resamples, while the thesis states 10000; MIL records 10000.",
+      "Private annotation/patch inputs are required to retrain preprocessing and benchmark models."
+    ]
+  },
+  "chapter04": {
+    "title": "Cluster-conditioned Patch Synthesis",
+    "status": "Generation/evaluation/reporting stages selected and preserved separately",
+    "components": [
+      "generation",
+      "evaluation",
+      "reporting"
+    ],
+    "authoritative_locations": [
+      "dgx:/raid/dm236/synpath/repo",
+      "dgx:/home/dm236/synpath",
+      "local:scripts"
+    ],
+    "basis": [
+      "Canonical quality, utility and generated-condition-count CSVs match DGX final_original_experiment by SHA-256.",
+      "The final quality exporter reads per-arm inception_fid.json, uni_precision_recall.json and uni_authenticity.json; the utility exporter reads outputs/utility.",
+      "Regenerated full quality and RQ2 tables match all 45 and 27 numeric rows in the thesis.",
+      "Docker launch scripts explicitly mount the RAID repo for corrected iCAIRD sampling; authenticity/export code is in the home synpath checkout.",
+      "The authenticity metric/backfill implementations match the preserved 9 August 2026 Docker image byte-for-byte; 32 Python files match that image overall. Historical source from both August 4 and August 9 images is preserved privately."
+    ],
+    "gaps": [
+      "The current live tree is missing 12 of 45 main authenticity JSONs and the original iCAIRD utility metric JSONs. The final aggregate exports remain available.",
+      "The original live-tree export scripts therefore do not currently rerun end-to-end without restoring those records; this failure is retained in evidence/chapter4-export-checks.json.",
+      "No exact code snapshot/Git commit was recorded for every training run. Current recovered stage trees are pinned by per-file hashes, not asserted to be byte-identical to every historical runtime.",
+      "Keep code identifier pathmnist224 for the dataset labelled Kather in the chapter figures.",
+      "Current raw metrics have drifted from the thesis export: FID 33/45 matching rows, precision 33/45, recall 41/45; the archived authenticity backfill CSV matches 45/45."
+    ]
+  },
+  "chapter05": {
+    "title": "Dimensionality reduction in patch embeddings",
+    "status": "Hypatia hproj selected; reporting numerically reproduced",
+    "components": [
+      "hproj",
+      "reporting",
+      "run-configs"
+    ],
+    "authoritative_locations": [
+      "hypatia:/home/dm236/repos/hproj",
+      "local:AllResults/Chapter5-dimensionality-reduction/results_with_icaird/hproj-2026-05-25_16-41-27-bb2a5203-icaird100k/scripts"
+    ],
+    "basis": [
+      "Thesis LR accuracy/ROC-AUC plots match the local report outputs by SHA-256.",
+      "The source result family is hproj-2026-05-25_16-41-27-bb2a5203, with an icaird100k extension.",
+      "Hypatia result files and configurations match the archived run family; completed job logs name gpu04/gpu05.hpc.st-andrews.ac.uk and the same run manifests.",
+      "Regenerated threshold table has identical table rows. Regenerated best-generalisation and robustness tables match all 24 dataset rows each numerically; the thesis applies presentation edits."
+    ],
+    "gaps": [
+      "The current server icaird100k generalisation CSV has additional/changed run contents versus the archived thesis reporting input; use the archived input identified here for report reproduction.",
+      "bb2a5203 is a configuration hash, not a Git commit. The pinned base repository commit is 2759db99c plus the preserved Hypatia working-tree modifications.",
+      "Completed generalisation jobs ran on Hypatia; the blanket DGX hardware statement in the thesis needs reconciliation."
+    ]
+  },
+  "chapter06": {
+    "title": "Clustering low-dimensional representations",
+    "status": "Clustering and conditioning stages selected; final outputs reproduced",
+    "components": [
+      "clustering",
+      "selection-support",
+      "conditioning",
+      "synthesis-configs",
+      "reporting"
+    ],
+    "authoritative_locations": [
+      "hypatia:/home/dm236/repos/histology-clustering-experiment",
+      "wopr:/home/dm236/repos/histology-clustering-experiment",
+      "local:clustering_experiment",
+      "dgx:/raid/dm236/synpath_balanced_global_clusters",
+      "dgx:/raid/experiments/lowgen_v2"
+    ],
+    "basis": [
+      "Hypatia ran projection/clustering tasks; the WOPR script explicitly rsyncs the spherical tasks and runs the combined 32-worker summary.",
+      "51 WOPR summary/trend/table output files match the local Chapter6 results by SHA-256.",
+      "The local clustering computational Python modules match the WOPR source; its extra CLI/appendix module provides the final appendix tables.",
+      "Both Appendix B full dimension tables regenerate byte-for-byte.",
+      "Combined PCA/UMAP plotted-values CSV regenerates byte-for-byte. PNG bytes differ in the current rendering environment.",
+      "The low-dimensional conditioning comparison recomputes all 24 quality-delta rows and 72 utility-delta rows numerically.",
+      "Saved synthesis configs specify UNI2/PCA/KMeans k=24, dimension 42 for iCAIRD and 50 for pathmnist224/Kather."
+    ],
+    "gaps": [
+      "The local res/clustering_results.csv is only a 4704-row kmeans/hdbscan subset. Do not use it as the complete clustering dataset; clustering_stability.csv contains all four methods and reproduces the thesis outputs.",
+      "The low-dimensional generator stages reuse Chapter 4 generation/evaluation code with the Chapter 6 saved configs.",
+      "Selection support is preserved, but the thesis description of evenly weighted six metrics needs reconciliation with the saved balanced_compromise/Pareto selection metadata."
+    ]
+  },
+  "chapter07": {
+    "title": "Conclusion",
+    "status": "No independent experimental code",
+    "components": []
+  },
+  "appendixA": {
+    "title": "Patch Synthesis Results",
+    "status": "Uses Chapter 4 source",
+    "components": [
+      "../chapter04"
+    ]
+  },
+  "appendixB": {
+    "title": "Full Clustering Results",
+    "status": "Uses Chapter 6 source; both tables byte-for-byte reproduced",
+    "components": [
+      "../chapter06/clustering"
+    ]
+  },
+  "appendixC": {
+    "title": "Anonymising Pathology Data using Generative Adversarial Networks",
+    "status": "Historical pathgen paper notebooks selected",
+    "components": [
+      "pathgen"
+    ],
+    "authoritative_locations": [
+      "github:davemor/pathgen@7dc9feea213a3ec9884274132615b53d7054f75e"
+    ],
+    "basis": [
+      "The three *_paper classifier notebooks retain original saved test accuracies 0.77689999, 0.75493336 and 0.59406668, which round to the thesis values 0.78, 0.75 and 0.59.",
+      "The two paper GAN notebooks specify 400 epochs and batch size 256, matching the appendix.",
+      "Use notebooks/3-train_gan_normal-Copy1-paper.ipynb, notebooks/3-train_gan_tumor-new-paper.ipynb and the three notebooks/5-train_patch_classifier_{real,mixed,fake}_paper.ipynb files. Saved outputs were removed from the publication copy, with original evidence retained privately."
+    ]
+  },
+  "appendixD": {
+    "title": "Ethics",
+    "status": "No experimental code",
+    "components": []
+  },
+  "appendixE": {
+    "title": "WSI Pipe: A histology preprocessing toolkit",
+    "status": "DGX toolkit and reader-extension source pinned",
+    "components": [
+      "wsipipe",
+      "wsipipe-isyntax"
+    ],
+    "authoritative_locations": [
+      "dgx:/home/dm236/wsipipe@77143f6f8",
+      "dgx:/home/dm236/wsipipe-isyntax@6fa76a945"
+    ],
+    "gaps": [
+      "The davemor/wsipipe destination was empty when checked; the recovered checkout points to the StAndrewsMedTech repository. This appendix documents software rather than a new numeric experiment."
+    ]
+  }
+}

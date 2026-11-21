@@ -1,0 +1,18 @@
+[
+  {
+    "image": "synpath:latest",
+    "identity": "sha256:59f33c100f182feb2839c45c06246e61edbd9f0f340bb55710f36e6ee65f1de6 2026-08-04T22:07:06.603569783Z",
+    "returncode": 0,
+    "verified_files": 112,
+    "errors": [],
+    "archive_bytes": 235659
+  },
+  {
+    "image": "synpath-authenticity:latest",
+    "identity": "sha256:d3585902cc71d6718340cdad3faa98a322c27de6eb1a76bbfa823d679cf49bfc 2026-08-09T22:00:49.4803982Z",
+    "returncode": 0,
+    "verified_files": 34,
+    "errors": [],
+    "archive_bytes": 52464
+  }
+]

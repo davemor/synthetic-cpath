@@ -1,0 +1,41 @@
+% Requires \usepackage{booktabs,multirow}
+\begin{table}[htbp]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.05}
+\begin{tabular}{lllrrrrr}
+\toprule
+Dataset & Architecture & Conditioning & FID $\downarrow$ & nUFD $\downarrow$ & IP $\uparrow$ & IR $\uparrow$ & Auth. $\uparrow$ \\
+\midrule
+\multirow{6}{*}{iCAIRD} & \multirow{2}{*}{SG2} & Unconditioned & \textbf{10.01} & \textbf{9.89} & \textbf{0.3618} & 0.0117 & 0.9775 \\
+ &  & Global cluster & 20.24 & 11.18 & 0.2646 & \textbf{0.0237} & \textbf{0.9802} \\
+\cmidrule(lr){2-8}
+ & \multirow{2}{*}{SD-LoRA} & Unconditioned & \textbf{84.84} & \textbf{51.91} & 0.0002 & 0.0000 & 1.0000 \\
+ &  & Global cluster & 89.71 & 52.70 & \textbf{0.0003} & 0.0000 & 1.0000 \\
+\cmidrule(lr){2-8}
+ & \multirow{2}{*}{DCGAN} & Unconditioned & \textbf{60.13} & \textbf{40.99} & 0.0342 & 0.0000 & \textbf{0.9991} \\
+ &  & Global cluster & 195.94 & 75.32 & \textbf{0.0755} & 0.0000 & 0.9989 \\
+\midrule
+\multirow{6}{*}{Kather} & \multirow{2}{*}{SG2} & Unconditioned & \textbf{38.04} & \textbf{18.95} & 0.0488 & 0.0019 & 0.9994 \\
+ &  & Global cluster & 49.82 & 23.67 & \textbf{0.0719} & \textbf{0.0065} & \textbf{0.9996} \\
+\cmidrule(lr){2-8}
+ & \multirow{2}{*}{SD-LoRA} & Unconditioned & 109.25 & 61.51 & \textbf{0.0199} & 0.0014 & 1.0000 \\
+ &  & Global cluster & \textbf{88.80} & \textbf{54.47} & 0.0054 & \textbf{0.0106} & 1.0000 \\
+\cmidrule(lr){2-8}
+ & \multirow{2}{*}{DCGAN} & Unconditioned & \textbf{148.89} & \textbf{64.33} & 0.0000 & 0.0000 & 1.0000 \\
+ &  & Global cluster & 193.20 & 84.70 & 0.0000 & 0.0000 & 1.0000 \\
+\midrule
+\multirow{6}{*}{PCam} & \multirow{2}{*}{SG2} & Unconditioned & \textbf{17.81} & \textbf{26.95} & \textbf{0.2387} & 0.0000 & 0.9796 \\
+ &  & Global cluster & 57.97 & 37.76 & 0.1175 & 0.0000 & \textbf{0.9968} \\
+\cmidrule(lr){2-8}
+ & \multirow{2}{*}{SD-LoRA} & Unconditioned & 148.89 & 62.60 & 0.0000 & 0.0000 & 1.0000 \\
+ &  & Global cluster & \textbf{124.46} & \textbf{61.54} & \textbf{0.0001} & 0.0000 & 1.0000 \\
+\cmidrule(lr){2-8}
+ & \multirow{2}{*}{DCGAN} & Unconditioned & \textbf{141.67} & \textbf{76.27} & \textbf{0.1037} & 0.0000 & 1.0000 \\
+ &  & Global cluster & 197.19 & 97.53 & 0.0000 & 0.0000 & 1.0000 \\
+\bottomrule
+\end{tabular}
+\caption{RQ1 quality results comparing unconditioned generation with global-cluster pseudo-label conditioning. FID is retained for comparison with previous studies. nUFD denotes normalized UNI Fr\'echet distance, $\mathrm{nUFD}=\mathrm{FD}^{\mathrm{test}}_{\mathrm{UNI}}/\mathrm{FD}^{\mathrm{floor}}_{\mathrm{UNI}}$, following the floor-normalization convention of HistoFID and using MahmoodLab/UNI, not UNI2. FID and nUFD are lower-is-better; improved precision (IP), improved recall (IR), and Authenticity (Auth.) are higher-is-better. nUFD is an exploratory calibrated measure and does not establish universal cross-dataset comparability. Bold denotes the unique better value within each matched dataset--architecture pair.}
+\label{tab:rq1-normalized-quality}
+\end{table}

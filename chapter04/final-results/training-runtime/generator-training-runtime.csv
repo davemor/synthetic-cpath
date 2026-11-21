@@ -1,0 +1,4 @@
+architecture,models,models_with_runtime,gpus_per_model,mean_runtime_seconds,runtime_sd_seconds,cumulative_wall_seconds,gpu_hours,total_exposures,mean_exposures
+StyleGAN2-ADA,15,15,8,17425.666666666668,1247.6619658194206,261385,580.8555555555556,30000000,2000000
+SD-LoRA,15,15,8,8219.866666666667,1378.6889148062096,123298,273.99555555555554,16800000,1120000
+DCGAN,15,0,8,,,,,38080000,2538667

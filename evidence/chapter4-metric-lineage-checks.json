@@ -1,0 +1,238 @@
+{
+  "quality_rows": 45,
+  "all_numeric_measurements_match_final_export": false,
+  "authenticity_source": "DGX reports/authenticity/authenticity_results.csv, family=main, seed=0",
+  "note": "This checks preserved original measurements, not a newly recomputed embedding evaluation.",
+  "per_metric_matching_rows": {
+    "FID": 33,
+    "IP": 33,
+    "IR": 41,
+    "Authenticity": 45
+  },
+  "changed_arms": [
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "dcgan",
+      "conditioning": "label_global_cluster",
+      "metric": "FID",
+      "current": 112.5352485230901,
+      "published_export": 118.27312847445172
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "dcgan",
+      "conditioning": "label_local_cluster",
+      "metric": "FID",
+      "current": 117.77278248798461,
+      "published_export": 132.34946832615043
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "dcgan",
+      "conditioning": "pseudo_label",
+      "metric": "FID",
+      "current": 181.40379052681834,
+      "published_export": 195.93834515122677
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "dcgan",
+      "conditioning": "true_label",
+      "metric": "FID",
+      "current": 153.61567864895085,
+      "published_export": 182.56794606183155
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "sd_lora",
+      "conditioning": "label_global_cluster",
+      "metric": "FID",
+      "current": 71.89413994057088,
+      "published_export": 81.53128789810961
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "sd_lora",
+      "conditioning": "label_local_cluster",
+      "metric": "FID",
+      "current": 86.61132053974711,
+      "published_export": 93.09585638578608
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "sd_lora",
+      "conditioning": "pseudo_label",
+      "metric": "FID",
+      "current": 79.59099299292228,
+      "published_export": 89.71207905476766
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "sd_lora",
+      "conditioning": "true_label",
+      "metric": "FID",
+      "current": 98.01537757675086,
+      "published_export": 106.27485776851624
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "stylegan2ada",
+      "conditioning": "label_global_cluster",
+      "metric": "FID",
+      "current": 13.09148890310729,
+      "published_export": 19.65570447083104
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "stylegan2ada",
+      "conditioning": "label_local_cluster",
+      "metric": "FID",
+      "current": 16.362271634404465,
+      "published_export": 20.28542484473496
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "stylegan2ada",
+      "conditioning": "pseudo_label",
+      "metric": "FID",
+      "current": 14.713802634925628,
+      "published_export": 20.2383769412603
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "stylegan2ada",
+      "conditioning": "true_label",
+      "metric": "FID",
+      "current": 26.524954336117617,
+      "published_export": 33.4543452250702
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "dcgan",
+      "conditioning": "label_global_cluster",
+      "metric": "IP",
+      "current": 0.3193,
+      "published_export": 0.3782
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "dcgan",
+      "conditioning": "label_local_cluster",
+      "metric": "IP",
+      "current": 0.2282,
+      "published_export": 0.1681
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "dcgan",
+      "conditioning": "pseudo_label",
+      "metric": "IP",
+      "current": 0.0683,
+      "published_export": 0.0755
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "dcgan",
+      "conditioning": "true_label",
+      "metric": "IP",
+      "current": 0.2687,
+      "published_export": 0.2721
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "sd_lora",
+      "conditioning": "label_global_cluster",
+      "metric": "IP",
+      "current": 0.0006,
+      "published_export": 0.0003
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "sd_lora",
+      "conditioning": "label_local_cluster",
+      "metric": "IP",
+      "current": 0.0018,
+      "published_export": 0.0012
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "sd_lora",
+      "conditioning": "pseudo_label",
+      "metric": "IP",
+      "current": 0.0004,
+      "published_export": 0.0003
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "sd_lora",
+      "conditioning": "true_label",
+      "metric": "IP",
+      "current": 0.0029,
+      "published_export": 0.0037
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "stylegan2ada",
+      "conditioning": "label_global_cluster",
+      "metric": "IP",
+      "current": 0.3446,
+      "published_export": 0.2949
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "stylegan2ada",
+      "conditioning": "label_local_cluster",
+      "metric": "IP",
+      "current": 0.3237,
+      "published_export": 0.2539
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "stylegan2ada",
+      "conditioning": "pseudo_label",
+      "metric": "IP",
+      "current": 0.3106,
+      "published_export": 0.2646
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "stylegan2ada",
+      "conditioning": "true_label",
+      "metric": "IP",
+      "current": 0.3316,
+      "published_export": 0.2549
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "stylegan2ada",
+      "conditioning": "label_global_cluster",
+      "metric": "IR",
+      "current": 0.0062,
+      "published_export": 0.0233999993652105
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "stylegan2ada",
+      "conditioning": "label_local_cluster",
+      "metric": "IR",
+      "current": 0.0073,
+      "published_export": 0.0225999988615512
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "stylegan2ada",
+      "conditioning": "pseudo_label",
+      "metric": "IR",
+      "current": 0.0075,
+      "published_export": 0.0236999988555908
+    },
+    {
+      "dataset": "icaird_cervical100k",
+      "architecture": "stylegan2ada",
+      "conditioning": "true_label",
+      "metric": "IR",
+      "current": 0.0002,
+      "published_export": 0.0003999999898951
+    }
+  ]
+}

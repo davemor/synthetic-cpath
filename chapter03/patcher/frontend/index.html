@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patcher Background Annotation Tool</title>
+    <link rel="stylesheet" href="/static/app.css" />
+    <script src="/static/app.js" defer></script>
+  </head>
+  <body>
+    <main class="app-shell">
+      <div class="app-frame">
+        <section class="panel panel-controls">
+          <div class="work-header">
+            <p class="eyebrow">Patcher</p>
+            <label class="annotator-select-field" for="annotator-list">
+              <span class="visually-hidden">Annotator</span>
+              <select name="annotator" id="annotator-list"></select>
+            </label>
+            <h1 id="slide-title">Loading slide…</h1>
+            <p id="annotation-count" class="header-count">0 tissue / 0 patches</p>
+            <label class="slide-select-field" for="slides-list">
+              <span class="visually-hidden">Jump to slide</span>
+              <select name="slides" id="slides-list"></select>
+            </label>
+            <button id="prev-slide-button" type="button" class="secondary-button">Prev</button>
+            <button id="next-slide-button" type="button" class="secondary-button">Next</button>
+            <button id="save-button" type="button">Save</button>
+          </div>
+        </section>
+
+        <section class="workspace">
+          <div class="panel viewer-panel">
+            <div id="thumbnail-stage" class="thumbnail-stage">
+              <img id="thumbnail" src="" alt="Slide thumbnail" />
+              <canvas id="thumbnail-overlay" aria-label="Patch overlay"></canvas>
+            </div>
+          </div>
+
+          <aside class="panel patch-panel">
+            <h2>Hovered Patch</h2>
+            <img id="patch" src="" alt="Hovered patch preview" />
+            <div class="field threshold-field patch-threshold-field">
+              <span>Tissue threshold</span>
+              <input
+                id="threshold-slider"
+                type="range"
+                min="0"
+                max="1000"
+                step="1"
+                value="173"
+              />
+              <div class="threshold-meta">
+                <input
+                  id="threshold-input"
+                  type="number"
+                  min="0"
+                  max="1"
+                  step="0.001"
+                  value="0.030"
+                />
+              </div>
+            </div>
+            <label class="toggle-field" for="outline-only-toggle">
+              <input id="outline-only-toggle" type="checkbox" checked />
+              <span>Show tissue outlines only</span>
+            </label>
+            <div class="legend">
+              <span class="legend-chip legend-chip-tissue"></span>
+              <span>Tissue</span>
+              <span class="legend-chip legend-chip-background"></span>
+              <span>Background</span>
+            </div>
+          </aside>
+        </section>
+
+        <p id="status-message" class="visually-hidden" aria-live="polite">Loading dataset…</p>
+        <p id="mouse-coords" class="visually-hidden"></p>
+      </div>
+    </main>
+  </body>
+</html>

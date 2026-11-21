@@ -1,0 +1,78 @@
+name: cluster_sd_index_calibration_pcam_osorio_standardized_sdbw
+cache_name: cluster_sd_index_calibration_pcam_osorio_standardized_sdbw
+
+k_min: 2
+k_max: 50
+report_name: cluster_sd_index_calibration_pcam_osorio_standardized_sdbw
+
+datasets:
+  pcam:
+    display_name: PCam with Osorio curation
+    manifest: ${oc.env:SYNPATH_DATA_ROOT,/raid/dm236/synpath/data}/manifests/pcam_full.csv
+    expected_train: 262144
+    curation:
+      kind: osorio_pcam_foreground
+      workers: 72
+      thresholds:
+        th_V_max: 70
+        th_S_max: 3
+        th_std_V: 4
+        th_std_S: 4
+        th_std_H: 1.5
+        th_var_L: 100
+        th_n_contour: 10
+    feature_reuse:
+      dino_vitb8:
+        kind: indexed
+        features: /raid/dm236/synpath/cache/cluster_sd_index_calibration_full_pool/pcam/dino_vitb8/train_features.npy
+        features_key: null
+        index: /raid/dm236/synpath/cache/cluster_sd_index_calibration_full_pool/pcam/dino_vitb8/train_index.parquet
+        sample_id_column: sample_id
+        label_column: label
+      uni2:
+        kind: indexed
+        features: /raid/dm236/synpath/cache/cluster_sd_index_calibration_full_pool/pcam/uni2/train_features.npy
+        features_key: null
+        index: /raid/dm236/synpath/cache/cluster_sd_index_calibration_full_pool/pcam/uni2/train_index.parquet
+        sample_id_column: sample_id
+        label_column: label
+
+encoders:
+  dino_vitb8:
+    display_name: DINO ViT-B/8
+    model: facebook/dino-vitb8
+    dimension: 768
+    batch_size: 64
+    fit_transform: standard_scaler
+  uni2:
+    display_name: UNI2-h
+    model: hf-hub:MahmoodLab/UNI2-h
+    dimension: 1536
+    batch_size: 32
+    fit_transform: standard_scaler
+
+kmeans:
+  init: k-means++
+  n_init: 10
+  max_iter: 300
+  random_state: 18021999
+
+sd_index_scorer:
+  kind: s_dbw_sd_0_4_0
+  package_version: 0.4.0
+  k: 1.0
+  alg_noise: bind
+  centr: mean
+  nearest_centr: true
+  metric: euclidean
+  scoring_space: raw_embeddings
+
+resources:
+  embedding_workers: 12
+  gpu_required: true
+
+report_notes:
+  - K-means is fitted on globally standardized training embeddings. StandardScaler statistics and transformed matrices are cached for reproducibility.
+  - Following Osorio's released validation code, s-dbw SD scores are computed on the original raw embeddings rather than the standardized fitting matrix.
+  - The Osorio foreground filters are exact, but the source is the official 262,144-patch HDF5 training split rather than the authors' 220,025-patch deduplicated Kaggle training split.
+  - The K-means seed matches the released code. RAPIDS cuML is retained instead of scikit-learn to keep the full k=2 through 50 sweep computationally tractable.

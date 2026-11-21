@@ -1,0 +1,33 @@
+run:
+  output_dir: /home/dm236/scratch/icaird_cervical_benchmark/runs
+  seeds: [0]
+
+data:
+  dataset_root: /home/dm236/scratch/data/icaird_cervical/bags/full_canny005_or_resnet_light_grandqc_artifact
+  image_size: 224
+  num_workers: 8
+
+images:
+  enabled: false
+
+probes:
+  enabled: false
+
+mil:
+  enabled: true
+  bag_root: /home/dm236/scratch/data/icaird_cervical/bags/full_canny005_or_resnet_light_grandqc_artifact
+  embedding_name: uni2_h
+  embedding_dim: 1536
+  tasks: [malignant]
+  epochs: 1
+  batch_size: 1
+  d_model: 512
+  encoder_layers: 4
+  heads: 4
+  dim_feedforward: 2048
+  activation: gelu
+  dropout: 0.15
+  lr: 1.0e-5
+  weight_decay: 0.0
+  balance_classes: true
+  use_amp: true

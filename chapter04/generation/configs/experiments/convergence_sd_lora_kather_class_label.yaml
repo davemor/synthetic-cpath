@@ -1,0 +1,58 @@
+name: convergence_sd_lora_kather_class_label
+
+datasets:
+  - pathmnist224
+
+generators:
+  - sd_lora
+
+conditioning_modes:
+  - true_label
+
+seeds:
+  generators: [101]
+
+images:
+  native_size: 224
+  generator_size: 256
+  output_format: png
+  stain_normalization: false
+
+generation:
+  synthetic_multiplier: 1.0
+  preserve_distribution: true
+  sd_lora:
+    rank: 16
+    train_batch_size: 16
+    gradient_accumulation_steps: 1
+    max_train_steps: 20000
+    learning_rate: 0.0001
+    checkpointing_steps: 2500
+    checkpoints_total_limit: 8
+    sample_batch_size: 8
+    sample_gpus: 8
+    sample_height: 256
+    sample_width: 256
+
+metrics:
+  max_real: 10000
+  max_synthetic: 10000
+  seed: 0
+  precision_recall_k: 3
+  precision_recall_batch_size: 512
+
+convergence_audit:
+  dataset: pathmnist224
+  model: sd_lora
+  conditioning: true_label
+  training_seed: 101
+  sampling_seed: 0
+  checkpoints: [5000, 7500, 10000, 15000, 20000]
+  plateau:
+    distance_relative_change: 0.02
+    precision_recall_absolute_change: 0.01
+  validation_loss:
+    batch_size: 16
+    num_workers: 4
+    num_shards: 8
+    seed: 2026

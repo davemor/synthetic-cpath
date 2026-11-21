@@ -1,0 +1,62 @@
+name: cluster_sd_index_calibration_pcam_kaggle_osorio_released_dino
+cache_name: cluster_sd_index_calibration_pcam_kaggle_osorio_released_dino
+
+k_min: 2
+k_max: 50
+report_name: cluster_sd_index_calibration_pcam_kaggle_osorio_released_dino
+
+datasets:
+  pcam:
+    display_name: Kaggle PCam with released Osorio preprocessing
+    manifest: ${oc.env:SYNPATH_DATA_ROOT,/raid/dm236/synpath/data}/manifests/pcam_kaggle_full.csv
+    expected_train: 220025
+    curation:
+      kind: osorio_pcam_foreground
+      workers: 72
+      image_mode: source_native
+      thresholds:
+        th_V_max: 70
+        th_S_max: 3
+        th_std_V: 4
+        th_std_S: 4
+        th_std_H: 1.5
+        th_var_L: 100
+        th_n_contour: 10
+
+encoders:
+  dino_vitb8:
+    display_name: DINO ViT-B/8, released preprocessing
+    model: facebook/dino-vitb8
+    dimension: 768
+    batch_size: 92
+    fit_transform: standard_scaler
+    preprocessing: osorio_released_tensor_rescale
+
+kmeans:
+  backend: sklearn
+  init: k-means++
+  n_init: 10
+  max_iter: 300
+  random_state: 18021999
+  algorithm: lloyd
+
+sd_index_scorer:
+  kind: s_dbw_sd_0_4_0
+  package_version: 0.4.0
+  k: 1.0
+  alg_noise: bind
+  centr: mean
+  nearest_centr: true
+  metric: euclidean
+  scoring_space: raw_embeddings
+
+resources:
+  embedding_workers: 72
+  gpu_required: false
+
+report_notes:
+  - This isolated sensitivity analysis reproduces the preprocessing and dependency versions in the released Osorio implementation.
+  - Images are converted with torchvision ToTensor before AutoFeatureExtractor applies its default rescaling, intentionally reproducing the released double-rescaling path.
+  - Curation uses each TIFF's source mode, matching the released implementation, rather than first converting it explicitly to RGB.
+  - K-means is fitted on globally standardized DINO embeddings and SD scores are computed on the original embeddings with s-dbw 0.4.0.
+  - Existing production cluster assignments are not modified.

@@ -1,0 +1,41 @@
+[
+  {
+    "notebook": "notebooks/5-train_patch_classifier_real_paper.ipynb",
+    "saved_test_metrics": [
+      {
+        "cell": 5,
+        "metric_line": "{'test_acc': 0.7768999934196472, 'test_loss': 0.48668986558914185}"
+      },
+      {
+        "cell": 5,
+        "metric_line": "[{'test_loss': 0.48668986558914185, 'test_acc': 0.7768999934196472}]"
+      }
+    ]
+  },
+  {
+    "notebook": "notebooks/5-train_patch_classifier_mixed_paper.ipynb",
+    "saved_test_metrics": [
+      {
+        "cell": 5,
+        "metric_line": "{'test_acc': 0.7549333572387695, 'test_loss': 0.5254080891609192}"
+      },
+      {
+        "cell": 5,
+        "metric_line": "[{'test_loss': 0.5254080891609192, 'test_acc': 0.7549333572387695}]"
+      }
+    ]
+  },
+  {
+    "notebook": "notebooks/5-train_patch_classifier_fake_paper.ipynb",
+    "saved_test_metrics": [
+      {
+        "cell": 5,
+        "metric_line": "{'test_acc': 0.5940666794776917, 'test_loss': 1.3717175722122192}"
+      },
+      {
+        "cell": 5,
+        "metric_line": "[{'test_loss': 1.3717175722122192, 'test_acc': 0.5940666794776917}]"
+      }
+    ]
+  }
+]

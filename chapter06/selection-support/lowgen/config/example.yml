@@ -1,0 +1,43 @@
+datasets:
+  - kather100k
+  - spider-colorectal
+  - spider-breast
+  - spider-skin
+  - spider-thorax
+
+encoders:
+  - uni
+  - uni2
+  - hibou
+  - dinov2
+
+seeds:
+  base_seed: 0
+  num_seeds: 5
+
+num_folds: 5
+
+reducers:
+  - kind: pca
+    dimensions: [4, 8, 9, 16, 32]
+    whiten: false
+  - kind: umap
+    dimensions: [4, 8, 9, 16, 32]
+    n_neighbors: [15, 50]
+    min_dist: [0.0, 0.1, 0.5]
+    metric: euclidean
+
+generator:
+  kinds:
+    - resample
+    - isotropic
+    - gaussian
+    - gmm
+    - bgmm
+  max_components: 20
+  conditional: true
+
+eval:
+  knn_k: 15
+  probe_max_iter: 1000
+  mmd_subsample: 1000

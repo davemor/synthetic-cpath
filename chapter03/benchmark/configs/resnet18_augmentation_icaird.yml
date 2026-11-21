@@ -1,0 +1,33 @@
+run:
+  output_dir: /home/dm236/scratch/icaird_cervical_benchmark/runs
+  seeds: [0, 1, 2]
+
+data:
+  dataset_root: /home/dm236/scratch/data/icaird_cervical/icaird_cervical_120k_trainonly_slide_split_uni2_labelbalanced_kcenter/images
+  label_index_path: /home/dm236/scratch/data/icaird_cervical/icaird_cervical_120k_trainonly_slide_split_uni2_labelbalanced_kcenter/embeddings/uni2_h/index.parquet
+  label_column: annotation_label_name
+  image_size: 224
+  num_workers: 8
+
+images:
+  enabled: true
+  models: [resnet18]
+  epochs: 100
+  batch_size: 64
+  patience: 10
+  pretrained: true
+  require_cuda: true
+  augmentation_suites: [none, geometric, colour, hed, combined]
+  augmentation_probability: 0.75
+  hed_sigma: 0.03
+  search:
+    method: fixed
+    n_iter: 1
+    learning_rate: [1.0e-4]
+    weight_decay: [1.0e-4]
+
+probes:
+  enabled: false
+
+mil:
+  enabled: false

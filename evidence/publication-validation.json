@@ -1,0 +1,15 @@
+{
+  "publication_date": "2026-11-21",
+  "python_files_parsed": 553,
+  "notebooks_checked_without_outputs": 33,
+  "readme_links_checked": 22,
+  "credential_study_id_and_embedded_image_matches": [],
+  "patient_identifier_csv_fields": {},
+  "checks": [
+    "1042 source/input hashes verified",
+    "pilot helper required-ID and synthetic-data export/order checks passed",
+    "patch encoder tests: 8 passed using the existing Python 3.14 Histokit environment",
+    "22 README links and all dependency patch references resolve"
+  ],
+  "scope": "Source publication validation; full GPU training was not rerun."
+}

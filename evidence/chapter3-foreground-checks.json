@@ -1,0 +1,22 @@
+[
+  {
+    "method": "canny",
+    "five_reported_metrics_match": true
+  },
+  {
+    "method": "clam_segmentation_otsu",
+    "five_reported_metrics_match": true
+  },
+  {
+    "method": "grandqc",
+    "five_reported_metrics_match": true
+  },
+  {
+    "method": "otsu_hs_segmentation",
+    "five_reported_metrics_match": true
+  },
+  {
+    "method": "resnet19",
+    "five_reported_metrics_match": true
+  }
+]

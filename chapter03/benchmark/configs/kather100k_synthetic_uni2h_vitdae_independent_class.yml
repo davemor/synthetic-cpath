@@ -1,0 +1,58 @@
+run:
+  output_dir: /nvme/synthetic_embeddings/kather100k_uni2h_vitdae_independent_class_diffae/runs
+  seeds: [0]
+
+data:
+  dataset_root: /data/Kather100K
+  image_size: 224
+  num_workers: 8
+
+images:
+  enabled: false
+
+probes:
+  enabled: false
+
+mil:
+  enabled: false
+
+synthetic_embeddings:
+  enabled: true
+  model_mode: independent_per_class
+  embedding_dir: /nvme/hdim/embeddings/cache-kather100k-uni2
+  output_dir: /nvme/synthetic_embeddings/kather100k_uni2h_vitdae_independent_class_diffae
+  label_column: class_name
+  split_column: split
+  embedding_dim: 1536
+  class_order:
+    - ADI - Adipose
+    - BACK - Background
+    - DEB - Debris
+    - LYM - Lymphocytes
+    - MUC - Mucus
+    - MUS - Smooth muscle
+    - NORM - Normal colon mucosa
+    - STR - Cancer-associated stroma
+    - TUM - Colorectal adenocarcinoma epithelium
+  validation_fraction: 0.1
+  sample_sizes: [10000, 50000, 100000]
+  seed: 0
+  batch_size: 256
+  num_workers: 8
+  max_seen_samples: 10000000
+  validation_interval_steps: 500
+  validation_batches: 16
+  patience_validations: 20
+  lr: 1.0e-4
+  weight_decay: 0.01
+  timesteps: 1000
+  beta: 0.008
+  hidden_dim: 2048
+  depth: 10
+  dropout: 0.0
+  ema_decay: 0.999
+  use_amp: true
+  ddim_steps: 20
+  eval_max_per_class: 2000
+  eval_knn_k: 5
+  utility_max_iter: 2000

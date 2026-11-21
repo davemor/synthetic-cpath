@@ -1,0 +1,150 @@
+run:
+  output_dir: /home/dm236/scratch/icaird_cervical_benchmark/runs
+  seeds: [0]
+
+data:
+  dataset_root: /sharedscratch/dm236/data/icaird_cervical/cluster_pseudolabels/icaird_bags_uni2h_kmeans24_pca42
+  image_size: 224
+  num_workers: 8
+
+images:
+  enabled: false
+
+probes:
+  enabled: false
+
+mil:
+  enabled: true
+  bag_root: /sharedscratch/dm236/data/icaird_cervical/cluster_pseudolabels/icaird_bags_uni2h_kmeans24_pca42
+  embedding_name: uni2_h
+  embedding_dim: 1536
+  tasks: [malignant, category, subcategory]
+  epochs: 200
+  batch_size: 1
+  d_model: 512
+  encoder_layers: 4
+  heads: 4
+  dim_feedforward: 2048
+  activation: gelu
+  dropout: 0.15
+  lr: 1.0e-5
+  weight_decay: 0.0
+  balance_classes: true
+  use_amp: true
+
+cluster_pseudolabels:
+  enabled: true
+  source_embedding_dir: /sharedscratch/dm236/data/icaird_cervical/icaird_cervical_120k_trainonly_slide_split_uni2_labelbalanced_kcenter/embeddings/uni2_h
+  source_bag_root: /sharedscratch/dm236/data/icaird_cervical/bags/full_canny005_or_resnet_light_grandqc_artifact
+  output_embedding_dir: /sharedscratch/dm236/data/icaird_cervical/cluster_pseudolabels/icaird100k_uni2h_kmeans24_pca42/embeddings/uni2_h
+  output_bag_root: /sharedscratch/dm236/data/icaird_cervical/cluster_pseudolabels/icaird_bags_uni2h_kmeans24_pca42
+  artifact_dir: /sharedscratch/dm236/data/icaird_cervical/cluster_pseudolabels/icaird100k_uni2h_kmeans24_pca42/artifacts
+  embedding_name: uni2_h
+  split_column: split
+  fit_split: train
+  label_column: cluster_pseudo_label
+  pca_components: 42
+  kmeans_clusters: 24
+  kmeans_init: k-means++
+  kmeans_n_init: 10
+  kmeans_max_iter: 300
+  random_state: 0
+  transform_batch_size: 65536
+
+synthetic_embeddings:
+  enabled: true
+  output_dir: /sharedscratch/dm236/synthetic_embeddings/icaird100k_uni2h_edm_conditional_kmeans24_pca42_clusters
+  embedding_dir: /sharedscratch/dm236/data/icaird_cervical/cluster_pseudolabels/icaird100k_uni2h_kmeans24_pca42/embeddings/uni2_h
+  label_column: cluster_pseudo_label
+  split_column: split
+  embedding_dim: 1536
+  class_order:
+    - cluster_00
+    - cluster_01
+    - cluster_02
+    - cluster_03
+    - cluster_04
+    - cluster_05
+    - cluster_06
+    - cluster_07
+    - cluster_08
+    - cluster_09
+    - cluster_10
+    - cluster_11
+    - cluster_12
+    - cluster_13
+    - cluster_14
+    - cluster_15
+    - cluster_16
+    - cluster_17
+    - cluster_18
+    - cluster_19
+    - cluster_20
+    - cluster_21
+    - cluster_22
+    - cluster_23
+  model_mode: edm_conditional
+  sample_sizes: [100000]
+  seed: 0
+  batch_size: 512
+  num_workers: 8
+  max_seen_samples: 5000000
+  validation_interval_steps: 500
+  validation_batches: 16
+  patience_validations: 20
+  lr: 1.0e-4
+  weight_decay: 0.01
+  hidden_dim: 2048
+  depth: 10
+  dropout: 0.0
+  ema_decay: 0.999
+  use_amp: true
+  ddim_steps: 20
+  edm_sigma_min: 0.002
+  edm_sigma_max: 80.0
+  edm_sigma_data: 0.5
+  edm_rho: 7.0
+  edm_class_dropout: 0.15
+  guidance_scale: 1.5
+
+synthetic_bags:
+  enabled: true
+  real_bag_root: /sharedscratch/dm236/data/icaird_cervical/cluster_pseudolabels/icaird_bags_uni2h_kmeans24_pca42
+  output_dir: /sharedscratch/dm236/synthetic_bags/icaird_cervical_conditional_edm_mlp_kmeans24_pca42_clusters_a100_sharded
+  embedding_name: uni2_h
+  embedding_dim: 1536
+  patch_label_column: cluster_pseudo_label
+  patch_class_order:
+    - cluster_00
+    - cluster_01
+    - cluster_02
+    - cluster_03
+    - cluster_04
+    - cluster_05
+    - cluster_06
+    - cluster_07
+    - cluster_08
+    - cluster_09
+    - cluster_10
+    - cluster_11
+    - cluster_12
+    - cluster_13
+    - cluster_14
+    - cluster_15
+    - cluster_16
+    - cluster_17
+    - cluster_18
+    - cluster_19
+    - cluster_20
+    - cluster_21
+    - cluster_22
+    - cluster_23
+  normal_label_aliases: []
+  sample_multipliers: [0.5, 1.0, 2.0]
+  seed: 0
+  count_model: lognormal
+  composition_model: multinomial
+  clamp_total_count_to_train_range: true
+  materialize_synthetic_only: true
+  materialize_real_plus_synthetic: true
+  include_real_valid_test: true

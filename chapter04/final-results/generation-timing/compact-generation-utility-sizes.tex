@@ -1,0 +1,47 @@
+% Requires \usepackage{booktabs,multirow}
+\begin{table}[htbp]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.05}
+\begin{tabular}{@{}llrr@{}}
+\toprule
+Dataset & Architecture & Patch time (s) & 10K time \\
+\midrule
+\multirow{4}{*}{iCAIRD}
+& StyleGAN2-ADA & $0.0455 \pm 0.0026$ & $7$m $35$s $\pm 26$s \\
+& SD-LoRA       & $0.0465 \pm 0.0002$ & $7$m $45$s $\pm 1.8$s \\
+& DCGAN         & $0.0196 \pm 0.0019$ & $3$m $16$s $\pm 19$s \\
+\cmidrule(lr){2-4}
+& \multicolumn{2}{l}{\textit{15 runs (5 regimes)}}
+& \textbf{1h 32m 58s} \\
+\midrule
+\multirow{4}{*}{Kather}
+& StyleGAN2-ADA & $0.0540 \pm 0.0162$ & $9$m $0$s $\pm 2$m $42$s \\
+& SD-LoRA       & $0.0460 \pm 0.0002$ & $7$m $40$s $\pm 2.1$s \\
+& DCGAN         & $0.0166 \pm 0.0006$ & $2$m $46$s $\pm 6.2$s \\
+\cmidrule(lr){2-4}
+& \multicolumn{2}{l}{\textit{15 runs (5 regimes)}}
+& \textbf{1h 37m 10s} \\
+\midrule
+\multirow{4}{*}{PCam}
+& StyleGAN2-ADA & $0.0401 \pm 0.0008$ & $6$m $41$s $\pm 7.5$s \\
+& SD-LoRA       & $0.0458 \pm 0.0001$ & $7$m $38$s $\pm 1.1$s \\
+& DCGAN         & $0.0156 \pm 0.0012$ & $2$m $36$s $\pm 12$s \\
+\cmidrule(lr){2-4}
+& \multicolumn{2}{l}{\textit{15 runs (5 regimes)}}
+& \textbf{1h 24m 37s} \\
+\midrule
+\multicolumn{3}{l}{\textbf{Overall (45 generation runs)}}
+& \textbf{4h 34m 45s} \\
+\bottomrule
+\end{tabular}
+\caption{Synthetic-patch generation throughput.
+Each generator produced $N_{\mathrm{synth}}=10{,}000$ patches per conditioning
+regime. Times are mean $\pm$ SD across conditioning regimes and include parallel
+sampling, PNG encoding, and file writing, but exclude training and process
+start-up. The Kather StyleGAN2-ADA summary excludes two interrupted runs and extrapolates the
+valid-run mean across all five regimes. Dataset and overall totals are
+cumulative standardized generation times, not parallel wall-clock times.}
+\label{tab:compact-generation-utility-sizes}
+\end{table}

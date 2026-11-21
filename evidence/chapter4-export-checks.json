@@ -1,0 +1,10 @@
+[
+  {
+    "exporter": "/Users/dm236/Documents/Synthetic Histopathology/synpath-authenticity-work/scripts/export_final_quality_table.py",
+    "error": "Traceback (most recent call last):\n  File \"/Users/dm236/Documents/Synthetic Histopathology/phd-code-collection/provenance/reproduced/chapter4-export/export_final_quality_table.py\", line 18, in <module>\n    with (metrics / \"uni_authenticity.json\").open() as file:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/dm236/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/Users/dm236/Documents/Synthetic Histopathology/phd-code-collection/provenance/canonical-metrics/synpath/outputs/generators/icaird_cervical100k/dcgan/label_global_cluster/seed0/metrics/uni_authenticity.json'\n"
+  },
+  {
+    "exporter": "/Users/dm236/Documents/Synthetic Histopathology/synpath-authenticity-work/scripts/export_final_utility_table.py",
+    "error": "Traceback (most recent call last):\n  File \"/Users/dm236/Documents/Synthetic Histopathology/phd-code-collection/provenance/reproduced/chapter4-export/export_final_utility_table.py\", line 37, in <module>\n    raise RuntimeError(\"Unexpected canonical utility-result inventory\")\nRuntimeError: Unexpected canonical utility-result inventory\n"
+  }
+]

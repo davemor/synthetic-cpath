@@ -1,0 +1,14 @@
+[
+  {
+    "generated": "/Users/dm236/Documents/Synthetic Histopathology/phd-code-collection/provenance/reproduced/chapter4-quality/quality-results-fid-ip-ir-authenticity.tex",
+    "thesis": "/Users/dm236/Documents/Research/PhD_Thesis___Synthetic_Data_Generation_in_Computational_Pathology/chap4/tables/quality-results-fid-ip-ir-authenticity.tex",
+    "numeric_rows_match": true,
+    "rows": 45
+  },
+  {
+    "generated": "/Users/dm236/Documents/Synthetic Histopathology/phd-code-collection/provenance/reproduced/chapter4-quality/rq2-normalized-quality.tex",
+    "thesis": "/Users/dm236/Documents/Research/PhD_Thesis___Synthetic_Data_Generation_in_Computational_Pathology/chap4/tables/rq2-normalized-quality.tex",
+    "numeric_rows_match": true,
+    "rows": 27
+  }
+]

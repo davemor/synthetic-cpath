@@ -1,0 +1,39 @@
+[
+  {
+    "generated": "phd-code-collection/provenance/reproduced/chapter5-summary/generalisation_best_compact.tex",
+    "thesis": "/Users/dm236/Documents/Research/PhD_Thesis___Synthetic_Data_Generation_in_Computational_Pathology/chap5/tables/1-dimensionality-reduction/generalisation-best-compact.tex",
+    "exact_bytes": false,
+    "same_table_rows": false,
+    "generated_sha256": "ae9252091131327d6e05c40b774b96754f78d0c8baa617d9c2f1e1e558de8b4f",
+    "same_dataset_row_numbers": true,
+    "compared_dataset_rows": 24
+  },
+  {
+    "generated": "phd-code-collection/provenance/reproduced/chapter5-summary/generalisation_classifier_robustness_by_dataset.tex",
+    "thesis": "/Users/dm236/Documents/Research/PhD_Thesis___Synthetic_Data_Generation_in_Computational_Pathology/chap5/tables/1-dimensionality-reduction/generalisation-classifier-robustness-by-dataset.tex",
+    "exact_bytes": false,
+    "same_table_rows": false,
+    "generated_sha256": "a7aa283f62b70ff29c295b9658c005f0cb770c5c232d50bae0b651ac95f9a247",
+    "same_dataset_row_numbers": true,
+    "compared_dataset_rows": 24
+  },
+  {
+    "generated": "phd-code-collection/provenance/reproduced/chapter5-thresholds/threshold_accuracy_roc_auc_stacked.tex",
+    "thesis": "/Users/dm236/Documents/Research/PhD_Thesis___Synthetic_Data_Generation_in_Computational_Pathology/chap5/tables/1-dimensionality-reduction/threshold-accuracy-roc-auc-stacked.tex",
+    "exact_bytes": false,
+    "same_table_rows": true,
+    "generated_sha256": "07e9ca8e030193d22611e05b9ccc794aca4ae73aed46cb420c8558d781995217",
+    "same_dataset_row_numbers": true,
+    "compared_dataset_rows": 24
+  },
+  {
+    "generated": "phd-code-collection/provenance/reproduced/chapter6-appendix/clustering-results-appendix-rq1-external-dimensions-1-50-table.tex",
+    "thesis": "/Users/dm236/Documents/Research/PhD_Thesis___Synthetic_Data_Generation_in_Computational_Pathology/appB/tables/clustering-results-appendix-rq1-external-dimensions-1-50-table.tex",
+    "exact_bytes": true
+  },
+  {
+    "generated": "phd-code-collection/provenance/reproduced/chapter6-appendix/clustering-results-appendix-rq1-internal-dimensions-1-50-table.tex",
+    "thesis": "/Users/dm236/Documents/Research/PhD_Thesis___Synthetic_Data_Generation_in_Computational_Pathology/appB/tables/clustering-results-appendix-rq1-internal-dimensions-1-50-table.tex",
+    "exact_bytes": true
+  }
+]

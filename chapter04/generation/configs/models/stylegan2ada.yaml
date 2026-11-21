@@ -1,0 +1,13 @@
+name: stylegan2ada
+external_repo: ${oc.env:SYNPATH_EXTERNAL_ROOT,external}/stylegan2-ada-pytorch
+train_resolution: 256
+output_format: png
+conditional:
+  true_label: true
+  pseudo_label: true
+  unconditioned: false
+training:
+  gpus: 8
+  snap: 10
+  metrics: none
+  mirror: false

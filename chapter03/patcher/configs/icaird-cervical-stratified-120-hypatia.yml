@@ -1,0 +1,18 @@
+dataset:
+  index: "icaird_cervical/stratified_120/index_sampled_stratified_120_ometiff.csv"
+  labels: "icaird_cervical/stratified_120/labels_tiffslide.json"
+  slides_dir: "/sharedscratch/dcchb-group/datasets/icaird_cervical/ometiff"
+  annotations_dir: "/sharedscratch/dcchb-group/datasets/icaird_cervical/annotations"
+
+patchsets_dir: "icaird_cervical/patcher_cache/stratified_120/pipeline_research/patchsets"
+patches_dir: "icaird_cervical/patcher_cache/stratified_120/pipeline_research/patches"
+thumbnails_dir: "icaird_cervical/patcher_cache/stratified_120/pipeline_research/thumbnails/16pix_per_patch"
+annotation_sets_dir: "icaird_cervical/patcher_annotations/stratified_120"
+annotators:
+  - "annotator_1"
+  - "annotator_2"
+  - "annotator_3"
+patch_size: 224
+patch_level: 1
+patch_display_size: 16
+default_tissue_threshold: 0.050

@@ -1,0 +1,229 @@
+[
+  {
+    "host": "hypatia",
+    "source": "/home/dm236/SimpleTuner",
+    "project": "00-SimpleTuner",
+    "commit": "a83e42059e271560578da834e00dc165beeb1e21",
+    "remotes": [
+      "origin\thttps://github.com/bghira/SimpleTuner.git (fetch)",
+      "origin\thttps://github.com/bghira/SimpleTuner.git (push)"
+    ],
+    "status": [
+      "?? apptainer_simpletuner.def",
+      "?? apptainer_simpletuner.sif"
+    ],
+    "snapshot_archive": "hypatia-dependencies.tar.gz"
+  },
+  {
+    "host": "hypatia",
+    "source": "/home/dm236/synpath/external/stylegan2-ada-pytorch",
+    "project": "01-stylegan2-ada-pytorch",
+    "commit": "d72cc7d041b42ec8e806021a205ed9349f87c6a4",
+    "remotes": [
+      "origin\thttps://github.com/NVlabs/stylegan2-ada-pytorch.git (fetch)",
+      "origin\thttps://github.com/NVlabs/stylegan2-ada-pytorch.git (push)"
+    ],
+    "status": [
+      " M torch_utils/misc.py"
+    ],
+    "snapshot_archive": "hypatia-dependencies.tar.gz",
+    "source_patch": "dependencies/patches/hypatia/01-stylegan2-ada-pytorch.patch"
+  },
+  {
+    "host": "hypatia",
+    "source": "/sharedscratch/dm236/synpath/external/stylegan3",
+    "project": "02-stylegan3",
+    "commit": "c233a919a6faee6e36a316ddd4eddababad1adf9",
+    "remotes": [
+      "origin\thttps://github.com/NVlabs/stylegan3.git (fetch)",
+      "origin\thttps://github.com/NVlabs/stylegan3.git (push)"
+    ],
+    "status": [
+      "?? __pycache__/legacy.cpython-310.pyc",
+      "?? dnnlib/__pycache__/__init__.cpython-310.pyc",
+      "?? dnnlib/__pycache__/util.cpython-310.pyc",
+      "?? metrics/__pycache__/__init__.cpython-310.pyc",
+      "?? metrics/__pycache__/equivariance.cpython-310.pyc",
+      "?? metrics/__pycache__/frechet_inception_distance.cpython-310.pyc",
+      "?? metrics/__pycache__/inception_score.cpython-310.pyc",
+      "?? metrics/__pycache__/kernel_inception_distance.cpython-310.pyc",
+      "?? metrics/__pycache__/metric_main.cpython-310.pyc",
+      "?? metrics/__pycache__/metric_utils.cpython-310.pyc",
+      "?? metrics/__pycache__/perceptual_path_length.cpython-310.pyc",
+      "?? metrics/__pycache__/precision_recall.cpython-310.pyc",
+      "?? torch_utils/__pycache__/__init__.cpython-310.pyc",
+      "?? torch_utils/__pycache__/custom_ops.cpython-310.pyc",
+      "?? torch_utils/__pycache__/misc.cpython-310.pyc",
+      "?? torch_utils/__pycache__/persistence.cpython-310.pyc",
+      "?? torch_utils/__pycache__/training_stats.cpython-310.pyc",
+      "?? torch_utils/ops/__pycache__/__init__.cpython-310.pyc",
+      "?? torch_utils/ops/__pycache__/bias_act.cpython-310.pyc",
+      "?? torch_utils/ops/__pycache__/conv2d_gradfix.cpython-310.pyc",
+      "?? torch_utils/ops/__pycache__/conv2d_resample.cpython-310.pyc",
+      "?? torch_utils/ops/__pycache__/fma.cpython-310.pyc",
+      "?? torch_utils/ops/__pycache__/grid_sample_gradfix.cpython-310.pyc",
+      "?? torch_utils/ops/__pycache__/upfirdn2d.cpython-310.pyc",
+      "?? training/__pycache__/__init__.cpython-310.pyc",
+      "?? training/__pycache__/augment.cpython-310.pyc",
+      "?? training/__pycache__/dataset.cpython-310.pyc",
+      "?? training/__pycache__/loss.cpython-310.pyc",
+      "?? training/__pycache__/networks_stylegan2.cpython-310.pyc",
+      "?? training/__pycache__/training_loop.cpython-310.pyc"
+    ],
+    "snapshot_archive": "hypatia-dependencies.tar.gz"
+  },
+  {
+    "host": "hypatia",
+    "source": "/sharedscratch/dm236/src/grandqc",
+    "project": "03-grandqc",
+    "commit": "002688d74a4ac86dfbb816a96df8461d6080f88a",
+    "remotes": [
+      "origin\thttps://github.com/cpath-ukk/grandqc.git (fetch)",
+      "origin\thttps://github.com/cpath-ukk/grandqc.git (push)"
+    ],
+    "status": [
+      " M 02_WSI_inference_OME_TIFF_QC/main.py",
+      " M 02_WSI_inference_OME_TIFF_QC/wsi_maps.py",
+      "?? 02_WSI_inference_OME_TIFF_QC/__pycache__/main.cpython-39.pyc",
+      "?? 02_WSI_inference_OME_TIFF_QC/__pycache__/wsi_colors.cpython-310.pyc",
+      "?? 02_WSI_inference_OME_TIFF_QC/__pycache__/wsi_maps.cpython-310.pyc",
+      "?? 02_WSI_inference_OME_TIFF_QC/__pycache__/wsi_maps.cpython-39.pyc",
+      "?? 02_WSI_inference_OME_TIFF_QC/__pycache__/wsi_process.cpython-310.pyc",
+      "?? 02_WSI_inference_OME_TIFF_QC/__pycache__/wsi_slide_info.cpython-310.pyc",
+      "?? 02_WSI_inference_OME_TIFF_QC/__pycache__/wsi_stain_norm.cpython-310.pyc",
+      "?? 02_WSI_inference_OME_TIFF_QC/__pycache__/wsi_tis_detect_helper_fx.cpython-310.pyc",
+      "?? 02_WSI_inference_OME_TIFF_QC/main.py.orig_axis_bug",
+      "?? 02_WSI_inference_OME_TIFF_QC/wsi_maps.py.orig_axis_bug"
+    ],
+    "snapshot_archive": "hypatia-dependencies.tar.gz",
+    "source_patch": "dependencies/patches/hypatia/03-grandqc.patch"
+  },
+  {
+    "host": "dgx",
+    "source": "/raid/dm236/synpath/external/diffusers",
+    "project": "00-diffusers",
+    "commit": "ad3a3afc3a4d3068bbb12f58129c855087ffc6d6",
+    "remotes": [
+      "origin\thttps://github.com/huggingface/diffusers.git (fetch)",
+      "origin\thttps://github.com/huggingface/diffusers.git (push)"
+    ],
+    "status": [
+      "?? examples/text_to_image/train_text_to_image_lora.py.bak_20260725_140540",
+      "?? examples/text_to_image/train_text_to_image_lora.py.bak_20260725_140724",
+      "?? examples/text_to_image/train_text_to_image_lora.py.bak_20260725_140938",
+      "?? examples/text_to_image/train_text_to_image_lora.py.bak_20260725_141106",
+      "?? examples/text_to_image/train_text_to_image_lora.py.bak_20260725_141227"
+    ],
+    "snapshot_archive": "dgx-dependencies.tar.gz"
+  },
+  {
+    "host": "dgx",
+    "source": "/raid/dm236/synpath/external/stylegan2-ada-pytorch",
+    "project": "01-stylegan2-ada-pytorch",
+    "commit": "",
+    "remotes": [],
+    "status": [],
+    "snapshot_archive": "dgx-dependencies.tar.gz"
+  },
+  {
+    "host": "dgx",
+    "source": "/raid/dm236/synpath/external/stylegan3",
+    "project": "02-stylegan3",
+    "commit": "",
+    "remotes": [],
+    "status": [],
+    "snapshot_archive": "dgx-dependencies.tar.gz"
+  },
+  {
+    "host": "wopr",
+    "source": "/home/dm236/Development/diffusers",
+    "project": "00-diffusers",
+    "commit": "24c062aaa19f5626d03d058daf8afffa2dfd49f7",
+    "remotes": [
+      "origin\tgit@github.com:huggingface/diffusers.git (fetch)",
+      "origin\tgit@github.com:huggingface/diffusers.git (push)"
+    ],
+    "status": [
+      "?? examples/text_to_image/env_sdft.sh",
+      "?? examples/text_to_image/patchdiffusion.ipynb",
+      "?? finetune_sd3.5.py"
+    ],
+    "snapshot_archive": "wopr-dependencies.tar.gz"
+  },
+  {
+    "host": "wopr",
+    "source": "/home/dm236/Development/SimpleTuner",
+    "project": "01-SimpleTuner",
+    "commit": "a83e42059e271560578da834e00dc165beeb1e21",
+    "remotes": [
+      "origin\thttps://github.com/bghira/SimpleTuner.git (fetch)",
+      "origin\thttps://github.com/bghira/SimpleTuner.git (push)"
+    ],
+    "status": [
+      " M poetry.lock"
+    ],
+    "snapshot_archive": "wopr-dependencies.tar.gz",
+    "source_patch": "dependencies/patches/wopr/01-SimpleTuner.patch"
+  },
+  {
+    "host": "wopr",
+    "source": "/home/dm236/Development/quilt-llava",
+    "project": "02-quilt-llava",
+    "commit": "7e70fc39f792ac55de010eb37bff0a6d6f491c13",
+    "remotes": [
+      "origin\thttps://github.com/aldraus/quilt-llava.git (fetch)",
+      "origin\thttps://github.com/aldraus/quilt-llava.git (push)"
+    ],
+    "status": [
+      "?? README_LOCAL_SETUP.md",
+      "?? llava.egg-info/PKG-INFO",
+      "?? llava.egg-info/SOURCES.txt",
+      "?? llava.egg-info/dependency_links.txt",
+      "?? llava.egg-info/requires.txt",
+      "?? llava.egg-info/top_level.txt",
+      "?? llava/__pycache__/__init__.cpython-310.pyc",
+      "?? llava/__pycache__/constants.cpython-310.pyc",
+      "?? llava/__pycache__/conversation.cpython-310.pyc",
+      "?? llava/__pycache__/mm_utils.cpython-310.pyc",
+      "?? llava/__pycache__/utils.cpython-310.pyc",
+      "?? llava/model/__pycache__/__init__.cpython-310.pyc",
+      "?? llava/model/__pycache__/builder.cpython-310.pyc",
+      "?? llava/model/__pycache__/llava_arch.cpython-310.pyc",
+      "?? llava/model/language_model/__pycache__/llava_llama.cpython-310.pyc",
+      "?? llava/model/language_model/__pycache__/llava_mpt.cpython-310.pyc",
+      "?? llava/model/language_model/mpt/__pycache__/adapt_tokenizer.cpython-310.pyc",
+      "?? llava/model/language_model/mpt/__pycache__/attention.cpython-310.pyc",
+      "?? llava/model/language_model/mpt/__pycache__/blocks.cpython-310.pyc",
+      "?? llava/model/language_model/mpt/__pycache__/configuration_mpt.cpython-310.pyc",
+      "?? llava/model/language_model/mpt/__pycache__/custom_embedding.cpython-310.pyc",
+      "?? llava/model/language_model/mpt/__pycache__/flash_attn_triton.cpython-310.pyc",
+      "?? llava/model/language_model/mpt/__pycache__/hf_prefixlm_converter.cpython-310.pyc",
+      "?? llava/model/language_model/mpt/__pycache__/meta_init_context.cpython-310.pyc",
+      "?? llava/model/language_model/mpt/__pycache__/modeling_mpt.cpython-310.pyc",
+      "?? llava/model/language_model/mpt/__pycache__/norm.cpython-310.pyc",
+      "?? llava/model/language_model/mpt/__pycache__/param_init_fns.cpython-310.pyc",
+      "?? llava/model/multimodal_encoder/__pycache__/builder.cpython-310.pyc",
+      "?? llava/model/multimodal_encoder/__pycache__/clip_encoder.cpython-310.pyc",
+      "?? llava/model/multimodal_projector/__pycache__/builder.cpython-310.pyc",
+      "?? scripts/describe_patch",
+      "?? scripts/describe_patch.py"
+    ],
+    "snapshot_archive": "wopr-dependencies.tar.gz"
+  },
+  {
+    "host": "wopr",
+    "source": "/home/dm236/Development/OneTrainer",
+    "project": "03-OneTrainer",
+    "commit": "fe59c2a630f07673c2eb7b012f50eb910b555c6f",
+    "remotes": [
+      "origin\tgit@github.com:Nerogar/OneTrainer.git (fetch)",
+      "origin\tgit@github.com:Nerogar/OneTrainer.git (push)"
+    ],
+    "status": [
+      " M modules/util/config/TrainConfig.py",
+      "?? sd3_config.json"
+    ],
+    "snapshot_archive": "wopr-dependencies.tar.gz",
+    "source_patch": "dependencies/patches/wopr/03-OneTrainer.patch"
+  }
+]

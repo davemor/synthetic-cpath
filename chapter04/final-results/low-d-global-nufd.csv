@@ -1,0 +1,7 @@
+Dataset,Architecture,Conditioning,Seed,nUFD
+pathmnist224,dcgan,label_global_cluster,0,85.94161998124412
+pathmnist224,sd_lora,label_global_cluster,0,45.047519059238105
+pathmnist224,stylegan2ada,label_global_cluster,0,17.380264622023855
+icaird_cervical100k,dcgan,label_global_cluster,0,72.4491160329065
+icaird_cervical100k,sd_lora,label_global_cluster,0,45.51758463075424
+icaird_cervical100k,stylegan2ada,label_global_cluster,0,17.109849962580636
