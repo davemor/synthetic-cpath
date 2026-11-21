@@ -1,7 +1,0 @@
-name: uni
-source: huggingface
-model_id: MahmoodLab/UNI
-image_size: 224
-batch_size: 128
-num_workers: 8
-cache_format: parquet

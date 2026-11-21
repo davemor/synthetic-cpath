@@ -1,7 +1,0 @@
-name: pathgen
-
-dependencies:
-  - python=3.6.10
-  - numpy
-  - matplotlib
-  - pandas

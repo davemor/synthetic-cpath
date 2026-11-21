@@ -1,2 +1,0 @@
-"""Generator convergence calibration utilities."""
-

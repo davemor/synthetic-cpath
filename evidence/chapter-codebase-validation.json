@@ -1,9 +1,0 @@
-{
-  "selected_manifest_files": 1042,
-  "integrity_errors": [],
-  "python_files_parsed": 552,
-  "syntax_errors": [],
-  "notebooks_validated": 33,
-  "credential_pattern_matches": [],
-  "limitation": "Static/source and report-level checks; full GPU training was not rerun."
-}

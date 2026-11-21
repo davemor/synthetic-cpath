@@ -1,4 +1,0 @@
-ARG RAPIDS_IMAGE=rapidsai/base:26.06-cuda12-py3.12
-FROM ${RAPIDS_IMAGE}
-
-RUN python -m pip install --no-cache-dir s-dbw==0.4.0
